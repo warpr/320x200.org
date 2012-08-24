@@ -1,0 +1,9 @@
+doslinux
+doslinux.png
+
+While studying binary executable file headers for size optimization purposes I
+created doslinux: a binary which runs on both dos and linux. :)
+
+* [doslinux.asm](/attic/files/doslinux.asm)
+* [doslinux-0.0.4.zip](/attic/files/doslinux-0.0.4.zip)
+
