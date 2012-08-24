@@ -1,0 +1,87 @@
+<h2>members</h2>
+<p>
+ This page collects the individual releases of each bliss member.
+ (please follow the <i>tmt</i> links for their old thaumaturge releases).
+</p>
+
+<p class="leechbar">
+  mugshot downloads: <a href="http://thaumaturge.frob.nl/releases/mugshot/index.html">(tmt)</a>
+</p>
+<p>
+  name: Robert Houwer<br />
+  task: musician<br />
+</p>
+
+<p><small>(no bliss releases yet)</small></p>
+
+
+
+<p class="leechbar">
+  <a href="mailto:tharsis@overflow.concepts.nl">tharsis</a> downloads:
+  <?php render_linkmsg ("tharsis/41b.xm", "spell caster"); ?>,
+  <a href="http://thaumaturge.frob.nl/releases/tharsis/index.html">(tmt)</a>
+</p>
+<p>
+  name: Wim Yedema<br />
+  task: musician/coder<br />
+</p>
+
+<p>
+  A chiptune called <a href="tharsis/41b.xm">&quot;spell
+  caster&quot;</a> was used by Skypher in a happy birthday
+  intro for Smoke, get it from <a 
+  href="http://www.bloat.net/~skywarper/smoke.tar.gz">skywarper</a> 
+  or right here: <?php render_link ("tharsis/smoke.tar.gz"); ?>.
+</p>
+
+<p class="screenshot">
+  <img class="screenshot" src="tharsis/smoke.png" alt="smoke screenshot" /><br />
+  happy birthday smoke, by skypher with help from #demoscene :)
+</p>
+
+<p class="leechbar">
+  <a href="mailto:warp-tmt@dds.nl">warp</a>:  
+<?php render_link ("warp/ivhkdwgrdh.zip"); ?>,
+  <a href="http://warp.frob.nl">homepage</a>, 
+  <a href="http://thaumaturge.frob.nl/releases/warp/index.html">(tmt)</a>
+</p>
+<p>
+  name: Kuno Woudt<br />
+  task: coder/graphician<br />
+</p>
+<p>
+  At <a href="http://woest.scene.org">woest</a> 2002 avoozl &amp;
+  warp got 5th place in the 64byte surprise compo with
+  <a href="warp/ivhkdwgrdh.zip">ivhkdwgrdh</a> (which is short for
+  <i>&quot;ik vind het kut dat we geen random data hebben&quot;</i>). 
+  There is no screenshot due to avoozl's mad hardware code :),
+  so have a look at the <a href="warp/ivhkdwgrdh.asm">source</a>
+  instead. 
+</p>
+<p>
+  I also helped mnemomix/kaleido a bit to fit his entry in 64 bytes,
+  his entry is called <a href="warp/a.zip">&quot;a&quot;</a>, it 
+  includes <a href="warp/a.asm">source</a> too.
+</p>
+<p class="screenshot">
+  <img class="screenshot" src="warp/5256.jpg" alt="'a' screenshot" /><br />
+  'a' by mnemonix/kaleido (3rd place, 64byte intro Woest 2002).
+</p>
+<p>
+  (btw, don't forget to vote thumbs up at pou&euml;t for
+   <a href="http://www.pouet.net/prod.php?which=5255">ivkdwgrdh</a>
+   and <a href="http://www.pouet.net/prod.php?which=5256">a</a>).
+</p>
+<p>
+  And finally, here's a button I pixelled for sentinel's now deceased <a
+  href="http://demoscene.org">demoscene.org</a>:
+</p>
+<p class="screenshot">
+  <img class="screenshot" src="warp/demosceneorg38.gif"
+       alt="[demoscene.org]" /><br />
+</p>
+<p>
+  For my non-demoscene releases (gba stuff and other tidbits), visit my <a
+  href="http://warp.frob.nl">homepage</a>.
+</p>
+<p class="sig">-- warp</p>

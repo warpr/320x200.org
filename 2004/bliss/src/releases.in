@@ -1,0 +1,142 @@
+<h2>2004 update!</h2>
+<p>
+Tharsis got (shared) 2nd place in the 2004 #demoscene 4k source compo :)
+</p>
+<p class="screenshot">
+  <img class="screenshot" src="releases/fab.png"
+       alt="bob screenshot" />
+  <br />tharsis - fab
+</p>
+
+</p>
+<p class="leechbar">
+  get fab:
+  <a href="http://4k.frob.nl/2004/download.php">4k compo download page</a>
+</p>
+
+<p>
+And here is some older stuff:
+</p>
+
+<h2>releases</h2>
+
+<p>
+  This page contains all bliss group releases (please visit the member
+  page for individual member releases).
+</p>
+<p>
+  All the files available here contain an executable + data
+  you can run out of the box on any recent Microsoft Windows 
+  (DirectX 7 or newer required).
+</p>
+<p>
+  The .zip files also contain the full source for you to compile on
+  Linux (if you try other unices, let me know what problems come up 
+  --warp), GGI is required. (it seems SDL is included with more and
+  more distributions, so I guess I should provide SDL versions some
+  day :)
+</p>
+
+<p class="leechbar">
+  get bob:
+  <?php render_link ("releases/bob-0.1.20.zip"); ?>,
+  <a href="bob/readme.html">manual</a>,
+  <a href="http://www.pouet.net/prod.php?which=2386">pou&euml;t</a>
+</p>
+
+<p>
+  Bob is warp's 32k game compo entry for
+  <a href="http://ms.demo.org">Mekka &amp; Symposium</a>
+  2001, it got 7th place.
+</p>
+
+<p>
+  Bob is a 2 player pc re-implementation of a classic 
+  c64 game called jawbreaker. It was coded by warp in C on an
+  old pentium 133MHZ, the code is a lot cleaner and better
+  optimized compared to 8bit :).
+</p>
+
+<p class="screenshot">
+  <img class="screenshot" src="releases/bob-drugged.png"
+       alt="bob screenshot" />
+  <br />warp used drug powerup on avoozl.
+</p>
+
+<p>
+  The music was made by tharsis and the player is a hybrid of
+  fxmp-0.0.21 and fxmp-0.0.22-pre2 with some size optimizations.
+  <a href="http://flare.theplanes.org">fxmp</a> by spectre
+  of <a href="http://flare.theplanes.org">flare</a>.
+</p>
+
+<p>
+  Linux/GGI port was mostly done by smoke of
+  <a href="http://die.die.ms/ecfh">ecfh</a>.
+</p>
+
+<p>
+  For more detailed credits and other info read the
+  <a href="bob/readme.html">manual</a>, which is in the
+  .zip file and has been put online too for your 
+  convenience.
+</p>
+
+<p>file_id.diz:</p>
+<pre>
+ 
+         .od888bo.
+       ,d888888888b.
+      d8888888888888b
+    ,d88P"Y88888P"Y88b.
+    d88(   )888(   )88b
+   .8888bod88888bod8888.
+   '8888888888888888888'
+    Y88888888888888888P
+    `Y8(   ~~~~~   )8P'
+      Y8o.       .o8P
+       'Y88boood88p'
+         '"Y888P"' 
+
+    mekka&amp;symposium2001
+    32k game -> dx7/ggi
+    bliss 100% gpl game
+
+</pre>
+<p class="leechbar">
+  get 8bit:
+  <?php render_link ("releases/Bliss-8bit.zip"); ?>,
+  <a href="http://www.pouet.net/prod.php?which=1431">pou&euml;t</a>,
+  screenshots:
+  <a href="releases/8bit-code">1</a>,
+  <a href="releases/8bit-hello">2</a>
+</p>
+
+<p>
+  We got 3rd place in the Bizarre 2000 intro compo with 8bit.
+  8bit was mostly coded by warp in C++. The code is not
+  optimized at all and the intro thus requires a 500MHZ cpu
+  to run smooth. Sorry about that :)
+</p>
+
+<p class="screenshot">
+  <img class="screenshot" src="releases/8bit-crop.png"
+       alt="8bit screenshot" />
+  <br />hi! smoke, avoozl, cavey, zarq.
+</p>
+
+<p>
+  Music by tharsis and the player is a slightly modified
+  version of fxmp-0.0.20 by spectre of 
+  <a href="http://flare.theplanes.org">flare</a>.
+</p>
+
+<p>Here's the file_id.diz:</p>
+<pre>
+   tharsis: music+code    ___ ,--.  ,--.__
+   warp: graphics+code   /   \| _|__|  |  |_
+   -------------------   \   /| \\_ \     _/
+   linux/win32 +source  /     \   /       |__
+   -------------------  \____________,-|_____\
+   64k intro bizarre00  [ 8bit ] (c)2000 bliss
+</pre>

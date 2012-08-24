@@ -1,0 +1,50 @@
+<h2>links</h2>
+
+<div class="links"> 
+<table>
+  <tr>
+    <td class="links" valign="bottom">irc</td><td class="spacer">&nbsp;</td>
+    <td class="links">#demoscene <a href="http://freenode.net/">(freenode irc)</a>.</td>
+  </tr>
+     
+  <tr>
+    <td class="links" valign="bottom">groups</td><td class="spacer">&nbsp;</td>
+    <td class="links"><a href="http://die.die.ms/ecfh">evil coders from hell</a>,
+        <a href="http://flare.theplanes.org">flare</a>,
+<!--        <a href="http://neq.tpolm.com">!=</a>.</td> -->
+        <a href="http://www.cell.se/plx/">perplexity</a>
+  </tr>
+
+  <tr>
+    <td class="links" valign="bottom">scene</td><td class="spacer">&nbsp;</td>
+    <td class="links"><a href="http://scene.org">scene.org</a>,
+        <a href="http://www.pouet.net">pou&euml;t</a>,
+        <a href="http://unixscene.kameli.net">unixscene</a>,
+        <a href="http://lnxscene.org">lnxscene</a>,
+        <a href="http://www.slengpung.com">slengpung</a>,
+        <a href="http://message.sk">message.sk</a>.</td>
+  </tr>
+
+<!--
+  <tr>
+    <td class="links" valign="bottom">parties</td><td class="spacer">&nbsp;</td>
+    <td class="links"><a href="http://sf2k.takeover.nl">sf2k</a>,
+        <a href="http://woest.scene.org">woest</a>,
+        <a href="http://breakpoint.untergrund.net/">breakpoint</a>.</td>
+  </tr>
+-->
+
+  <tr>
+    <td class="links" valign="bottom">gnu</td><td class="spacer">&nbsp;</td>
+    <td class="links"><a href="http://www.fsf.org/philosophy/free-sw.html">Free Software</a>, 
+        <a href="http://www.gnu.org/copyleft">GPL</a>.</td>
+  </tr>
+
+  <tr>
+    <td class="links" valign="bottom">inspiration</td><td class="spacer">&nbsp;</td>
+    <td class="links"><a href="http://www.warprecords.com">warp records</a>,
+        <a href="http://www.thedesignersrepublic.com">MitDR</a>.</td>
+  </tr>
+
+</table>
+</div>

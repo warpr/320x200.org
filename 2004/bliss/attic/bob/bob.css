@@ -1,0 +1,43 @@
+/* bob colours:
+
+COL_BORDER:   #a7537b
+COL_BG:       #9bafc7
+COL_SCORE_BG: #ffa753
+
+*/
+
+BODY 
+  { 
+    font-family: courier new, courier;
+    font-weight: normal;
+    font-size: 12pt;
+    line-height: 1.2em;
+    letter-spacing: -0.1em; 
+    text-decoration: none;
+    text-align: justify; 
+  }
+
+
+P.menu    { 
+    font-family: verdana, arial, sans-serif;
+    font-size: 10pt;
+    font-weight: bolder;
+    letter-spacing: 0.1em; 
+    color: #000000;
+}
+
+P.sig     { text-align: right; }
+P.screenshot { text-align: right; font-size: 10pt; font-style: italic; }
+P.center     { text-align: center; }
+
+/*
+
+A:visited { color: #D0D0FF; text-decoration: none; }
+A:link    { color: #D0D0FF; text-decoration: none; }
+A:active  { color: #D0D0FF; text-decoration: none; }
+
+TT        { text-align: left; font-weight: bolder; }
+
+P	  { text-align: justify; }
+
+*/

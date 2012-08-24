@@ -1,0 +1,201 @@
+<html><head>
+
+<title>4k - rules</title>
+<style type="text/css">
+
+body
+  {
+    color: #000000;
+    background: #ababab;
+    font-family: verdana, arial, helvetica, sans-serif;
+    margin: 0; border: 0; padding: 0;
+  }
+
+small { color: #606060; }
+
+img { border: 1px solid black; }
+
+div.attention
+  {
+    text-align: center;
+    width: 100%;
+    border: 4px dotted #f44;
+    background: #000;
+    margin-top: 1em;
+  }
+
+p.attention, small.attention
+  {
+    text-align: center;
+    color: #f44;
+    font-weight: bolder;
+  }
+
+div.menu
+  {
+    background: #a495ab;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: right;
+    margin-right: 1em;
+    z-index: 3;
+  }
+
+p { text-align: justify; }
+
+p.sig { text-align: right; }
+
+span.fourk
+  {
+    font-size: 400%;
+    font-weight: 700;
+    margin: 0;
+    border: 0;
+    padding-right: 0.2em;
+    text-align: right;
+  }
+
+h2
+  {
+    font-size: 150%;
+    font-weight: normal;
+  }
+
+div.main
+  {
+    margin: 0; 
+    border: 0; 
+    padding: 0;
+    position: absolute;
+    right: 1em;
+    width: 38em;
+  }
+
+a:visited, a:link, a:active, a:hover
+  {
+    font-weight: 700;
+    font-style: normal; 
+    text-decoration: none; 
+    color: #000000; 
+    margin: 0; border: 0; padding: 0;
+  }
+
+div.spacer
+  {
+    font-size: 400%;
+    font-weight: 700;
+  }
+
+.string { color: #006519; }
+.type { color: #4d59ab; font-weight: bold; }
+.function-name { color: #99628f; font-weight: bold; }
+.builtin { color: #99255d;  }
+.keyword { color: #007078; font-weight: bold; }
+.variable-name { color: #993225; font-style: italic; }
+
+</style>
+
+</head><body>
+
+<div class="menu">
+<a href=".">welcome</a> &nbsp; <a href="results.html">results</a> &nbsp; <a href="download.html">download</a> &nbsp; <a href="rules.html">rules</a> &nbsp; <a href="submit.html">submit</a> &nbsp; <a href="example.html">example</a> &nbsp; <a href="links.html">links</a> &nbsp;<span class="fourk"><a href="../4k/">4K</a></span>
+</div>
+<div class="spacer">&nbsp;</div>
+<div class="main">
+
+
+<h2>&rarr; update!</h2>
+<p>
+Rigel pointed out to me that the original example code was not portable.
+For portable code using opengl, SDL_opengl.h should be included instead
+of GL/GL.h and friends.
+</p>
+<p>
+However, that would mean a few less bytes for sourcecode.  So, to make it easier for all of you.  I will allow you to include a header which i provide, which includes a few commonly used header files.
+</p>
+   
+<h2>&rarr; basic rules</h2>
+<p>
+The rules are mostly the same as last year, 
+</p>
+<ol>
+  <li>Your source code should be less than (or equal to) 4096 bytes.</li>
+  <li>Only ANSI C and C++ are allowed.</li>
+  <li>You have to use <a href="http://www.libsdl.org">SDL</a></li>
+  <li>No other API calls allowed.</li>
+  <li>No external data files, just code.</li>
+  <li>Sound is allowed.</li> 
+  <li>ESC quits.</li>
+  <li>You can use the g.h or s.h files provided on the example page.</li>
+</ol>
+
+
+<h2>&rarr; detailed rules</h2>
+<p>
+Some of these rules may seem a bit harsh, but please keep in mind this
+is an open source compo.  Most of these rules deal with getting your
+code to be portable - the voters would like to be able to run your
+entry on Win32, GNU/Linux, Mac OSX, etc.. </p>
+<ol>
+  <li>The size limit for all the source code in the project is 4096
+  bytes, this does not include makefiles/projects or whatever you use
+  to build it. Whitespace (space/tab/newlines) is not counted for the
+  size limit, however the `real' size of your source files should not
+   grow beyond 8192 bytes.<br />&nbsp;<br />
+  The real size of your source files is the size you see with
+  <b>dir</b> or <b>ls -l</b> (this should be &lt;=
+  8192 bytes).<br />  You can use something like this to calculate 
+  the size without counting whitespace (should be &lt;= 4096 bytes):
+  <pre>
+       cat source.c | perl -pe 's/\s//g' | wc -c
+  </pre>
+  Using compiler switches to add source code at compile time is
+  strictly prohibited (that means no funky -D tricks in the Makefile
+  guys).
+  <br />
+  </li>
+  
+  <li>You are not allowed to use compiler extensions, only ANSI C
+  (or ANSI C99) and C++ is allowed.</li>
+
+  <li>You have to use <a href="http://www.libsdl.org">LibSDL</a> to
+  get a video buffer to play with :).  This cuts down on overhead for
+  the window init and msg loop and it is portable too.<br />
+  <b>note</b>: only stock SDL is
+  allowed - do NOT use any of the additional libraries). </li>
+
+  <li>You cannot use any OS specific libraries or API calls - i.e. No
+  Direct3D or other Windows API calls (and no X11 either).  OpenGL
+  (gl and glu, but not glut) is allowed to access 3D hardware.
+  </li>
+
+  <li>No data files are allowed.</li>
+
+  <li>Sound is allowed with SDL audio</a> (do not use /dev/dsp or
+  something like that directly).</li> 
+
+  <li>Pressing escape should quit the intro.</li>
+
+  <li>You can use <b>g.h</b> or <b>s.h</b> from the
+   <a href="example.html">example</a> page to avoid having to 
+   include a bunch of headers yourself.</li>
+</ol>
+
+
+
+      <!-- Piwik --> 
+      <script type="text/javascript">
+          var pkBaseURL = (("https:" == document.location.protocol) ? "https://frob.nl/piwik/" : "http://frob.nl/piwik/");
+          document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+          </script><script type="text/javascript">
+          try {
+              var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+              piwikTracker.trackPageView();
+              piwikTracker.enableLinkTracking();
+          } catch( err ) {}
+      </script><noscript><p><img src="http://frob.nl/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+      <!-- End Piwik Tracking Code -->
+</body></html>
