@@ -1,0 +1,66 @@
+   
+<h2>basic rules</h2>
+<ol>
+  <li>The source code for your entry should be less then (or equal to)
+  4096 bytes.</li>
+  <li>Only ANSI C and C++ are allowed.</li>
+  <li>You have to use <a href="http://www.libsdl.org">SDL</a> (or glut).</li>
+  <li>No other API calls allowed.</li>
+  <li>No external data files, just code.</li>
+  <li>Sound is allowed.</li> 
+  <li>ESC quits.</li>
+</ol>
+
+
+<h2>detailed rules</h2>
+<p>
+Some of these rules may seem a bit harsh, but please keep in mind this
+is an open source compo.  Most of these rules deal with getting your
+code to be portable - the voters would like to be able to run your
+entry on Win32, GNU/Linux, and even Mac OSX.</p>
+<ol>
+  <li>The size limit for all the source code in the project is 4096
+  bytes, this doesn't include makefiles/projects or whatever you use
+  to build it. Whitespace (space/tab/newlines) is not counted for the
+  size limit, however the `real' size of your source files should not
+   grow beyond 8192 bytes.<br />&nbsp;<br />
+  The real size of your source files is the size you see with
+  <b><tt>dir</tt></b> or <b><tt>ls -l</tt></b> (this should be &lt;=
+  8192 bytes).<br />  We're using the
+  following command to calculate the size without counting whitespace
+  (should be &lt;= 4096 bytes):
+  <pre>
+
+       cat source.c | perl -pe 's/\s//g' | wc -c
+  </pre>
+  Using compiler switches to add source code at compile time is
+  strictly prohibited (that means no funky -D tricks in the Makefile
+  guys).
+  <br />
+  </li>
+  
+  <li>You are not allowed to use compiler extensions, only ANSI C
+  and/or C++ is allowed.</li>
+
+  <li>You have to use <a href="http://www.libsdl.org">LibSDL</a> to
+  get a video buffer to play with :).  This cuts down on overhead for
+  the window init and msg loop and it's portable too.  If you really
+  want you can use glut too instead of SDL.<br />
+  <b>note</b>: only stock SDL is
+  allowed - do NOT use any of the additional libraries). </li>
+
+  <li>You cannot use any OS specific libraries or API calls - i.e. No
+  Direct3D or other Windows API calls (and no X11 either).  OpenGL is
+  allowed if you really want it :)</li>
+
+  <li>No data files are allowed, we might allow this in a future
+  edition of the compo, but for now just use your mad coding skillz
+  :)</li>
+
+  <li>Sound is allowed with SDL audio or <a
+  href="http://www.openal.org">OpenAL</a> (don't use /dev/dsp or
+  something like that directly).</li> 
+
+  <li>Pressing escape should quit the intro.</li>
+</ol>
+

@@ -1,0 +1,131 @@
+/* style sheet for 4k source compo. */
+
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 80%;
+  text-align: justify;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: #989898;
+  color: #FFFFFF;
+}
+
+pre { 
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  font-size: 90%; 
+  padding: 0; margin: 0; border: 0;
+}
+
+.sig { text-align: right; }
+
+.links {
+  text-align: right;
+  margin: 3ex;
+}
+
+h1 {
+  border-top: 1px solid #0080B0;  
+  border-left: 1px solid #0080B0;  
+  border-right: 1px solid #00AADD;
+  border-bottom: 1px solid #00AADD;
+}
+
+.menutitle { 
+  font-size: 120%;
+  text-align: center;
+  padding: 0; margin: 0; 
+}
+
+.pagetitle { 
+  font-size: 120%;
+  text-align: center;
+  padding: 0; margin: 0; 
+}
+
+table { 
+  padding: 0; margin: 0; border: 0; 
+  border-collapse: separate; border-spacing: 0;
+}
+
+a.menu:visited { font-weight: 700; text-decoration: none; color: #FFFFFF; }
+a.menu:link    { font-weight: 700; text-decoration: none; color: #FFFFFF; }
+a.menu:active  { font-weight: 700; text-decoration: none; color: #FFFFFF; background: #0080B0; }
+a.menu:hover   { font-weight: 700; text-decoration: none; color: #FFFFFF; background: #0080B0; }
+
+a:visited { text-decoration: underline; color: #FFFFFF; }
+a:link    { text-decoration: underline; color: #FFFFFF; }
+a:active  { text-decoration: underline; color: #FFFFFF; background: #0080B0; }
+a:hover   { text-decoration: underline; color: #FFFFFF; background: #0080B0; }
+
+
+tr { padding: 0; margin: 0; border: 0; }
+th { padding: 0; margin: 0; border: 0; vertical-align: top; }
+td { padding: 0; margin: 0; border: 0; vertical-align: top; }
+
+.alles {
+  border: 4ex solid #989898;
+  background: #989898;
+}
+
+td.menu {
+  text-align: left;
+  padding: 0; margin: 0; border: 0;
+  background: #0099CC;
+}
+
+td.page {
+  text-align: justify;
+  padding: 3ex; margin: 0; border: 0;
+  background: #0099CC;
+}
+
+td.spacer {
+  padding: 0; margin: 0; border: 0;
+}
+
+td.links {
+  padding: 0; margin: 0; border: 0;
+  background: url(links.gif);
+  background-repeat: repeat-y;
+}
+
+td.rechts {
+  padding: 0; margin: 0; border: 0;
+  background: url(rechts.gif);
+  background-repeat: repeat-y;
+}
+
+td.spaceronder {
+  padding: 0; margin: 0; border: 0;
+  vertical-align: top;
+}
+
+td.spacermidden {
+  padding: 0; margin: 0; 
+  border: 10px solid #989898;
+}
+
+img { vertical-align: bottom; border: 0; }
+img.entry { border: 1px solid #FFFFFF; }
+
+td.spacerboven {
+  padding: 0; margin: 0; border: 0;
+  vertical-align: bottom;
+}
+
+td.boven {
+  padding: 0; margin: 0; border: 0;
+  background: url(boven.gif);
+  background-repeat: repeat-x;
+  background-position: bottom left;
+}
+
+td.onder {
+  padding: 0; margin: 0; border: 0;
+  background: url(onder.gif);
+  background-repeat: repeat-x;
+}
+
+

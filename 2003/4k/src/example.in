@@ -1,0 +1,16 @@
+<p>
+I have put together a framework which you can use as a starting point,
+the overhead in these examples is 244 bytes for SDL, 195 for GL, and
+256 for glut.
+So you still have around 3800 bytes for actual code :).
+</p>
+<p>A Makefile for building with gnu make is included, but creating a
+project for MSVC or CodeWarrior should be fairly straightforward (<a
+href="http://www.libsdl.org">www.libsdl.org</a> has some info
+on this, and if someone wants to contribute their workspace/project file, 
+please do :).</p>
+<p>
+Download <a href="4ksource.zip">4ksource.zip</a>, or read <a
+href="sdl_4k.c">sdl_4k.c</a>, <a href="ogl_4k.c">ogl_4k.c</a>, <a
+href="glut_4k.c">glut_4k.c</a> online.
+</p>

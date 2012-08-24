@@ -1,0 +1,134 @@
+<?php /* -*- mode: c++ -*-
+
+    source code for 4k source compo page.
+*/
+
+error_reporting(E_ALL);
+
+$logo = "4ksrc.txt";
+
+$debug = 0;
+$base = substr($argv[1], 0, strrpos($argv[1], "."));
+$pages = array();
+
+for ($i = 2; $i < $argc; $i++)
+{
+  $name = $argv[$i];
+
+  $title = $name;
+
+  if ($title == "index") $title = "welcome";
+  if ($title == "danger") $title = "READ THIS FIRST!";
+  if ($title == "submit") $title = "submit";
+  if ($title == "results") $title = "results";
+  if ($title == "example") $title = "example code";
+
+  $pages[$title] = $name;
+}  
+
+function render_header ()
+{
+  echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>#demoscene 4k source compo</title>
+    <link rel="stylesheet" type="text/css" href="4k.css" title="4k default" />
+  </head>
+  <body>
+
+    <table class="alles"><tr class="alles"><td align="center">
+      <table class="page" cellpadding="0" cellspacing="0">
+        <tr class="boven">
+          <td class="spacer"></td>
+          <td class="spacerboven"><img src="linksboven.gif" alt="" /></td>
+          <td class="boven"></td>
+          <td class="spacerboven"><img src="rechtsboven.gif" alt="" /></td>
+          <td class="spacer"></td>
+          <td class="spacerboven"><img src="linksboven.gif" alt="" /></td>
+          <td class="boven"></td>
+          <td class="spacerboven"><img src="rechtsboven.gif" alt="" /></td>
+          <td class="spacer"></td>
+        </tr>
+        <tr>
+          <td class="spacer"></td>
+          <td class="links"></td>
+';
+}
+
+function render_center ()
+{
+  echo "<td class=\"rechts\"></td>\n";
+  echo "<td class=\"spacermidden\">&nbsp;</td>\n";
+  echo "<td class=\"links\"></td>\n";
+}
+
+function render_footer ()
+{
+  echo '
+          <td class="rechts"></td>
+          <td class="spacer"></td>
+        </tr>
+        <tr class="onder">
+          <td class="spacer"></td>
+          <td class="spaceronder"><img src="linksonder.gif" alt="" /></td>
+          <td class="onder"></td>
+          <td class="spaceronder"><img src="rechtsonder.gif" alt="" /></td>
+          <td class="spacer"></td>
+          <td class="spaceronder"><img src="linksonder.gif" alt="" /></td>
+          <td class="onder"></td>
+          <td class="spaceronder"><img src="rechtsonder.gif" alt="" /></td>
+          <td class="spacer"></td>
+        </tr>
+      </table>
+    </td></tr></table>
+  </body>
+</html>
+';
+}
+
+function render_menu ()
+{
+  global $base, $pages, $logo;
+
+  echo "<td class=\"menu\">\n"
+    ."<pre>".implode ('', file ($logo))."</pre>\n"
+    ."<h1 class=\"menutitle\">4k source compo</h1>\n"
+    ."<div class=\"links\">\n";
+
+  foreach ($pages as $title => $page)
+    echo "<a class=\"menu\" href=\"".$page.".html\">$title</a><br />\n";
+
+  echo "</div>\n"
+    ."<h1 class=\"menutitle\">the compo is over!</h1>\n"
+    ."<p style=\"text-align: center;\">(the 2003 compo is over, return to"
+    ." the <a href=\"..\">main</a> page for details on current compos)</p>"
+    ."</td>\n";
+}
+
+function render_page ($head, $page)
+{
+  echo "<td class=\"page\">\n"
+    ."<h1 class=\"pagetitle\">".$head."</h1>\n"
+    ."<div class=\"page\">".implode ('', file ($page.".in"))
+    ."</div>\n</td>\n";
+}
+
+function main ()
+{
+  global $base, $pages;
+
+  foreach ($pages as $head => $page)
+    if ($base == $page)
+      $title = $head;
+
+  render_header ($title);
+  render_menu ();
+  render_center ();
+  render_page ($title, $base);
+  render_footer ();
+}
+
+main ();
+
+?>

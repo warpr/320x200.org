@@ -1,0 +1,66 @@
+<p>
+<div style="text-align: center; font-size: 120%"><b>
+congratulations Jylam!</b></div>
+</p>
+<p>
+  Jylam has won the first ever 4k source compo. <br />(his entry 
+  entry &quot;3d&quot recieved 7 out of 15 votes).</p>
+<p>
+
+<h1 class="pagetitle">3d</h1>
+<p>
+<img class="entry" src="shot/3d.png" alt="3d screenshot">
+by Jylam<br />
+(7 votes)<br />
+</p>
+
+<h1 class="pagetitle">Lollipop hogwagen</h1>
+<p>
+<img class="entry" src="shot/hogwagen.png" alt="hogwagen screenshot">
+by tonic<br />
+(5 votes)<br />
+</p>
+
+<h1 class="pagetitle">different wavelengths in the visible 
+spectrum</h1>
+<p>
+<img class="entry" src="shot/dwitvs.png" alt="dwitvs screenshot">
+by spectre/flare<br />
+(2 votes)<br />
+</p>
+
+<h1 class="pagetitle">randomname</h1>
+<p>
+<img class="entry" src="shot/randomname.png" alt="randomname screenshot">
+by termos and styx<br />
+(1 vote)<br />
+</p>
+
+<h1 class="pagetitle">download</h1>
+<p>
+  <a href="4ksrc-pack1.zip">4ksrc-pack1.zip</a> (40kb) contains all
+  the entries.  If you are on windows and don't have
+  glut.dll and sdl.dll in your path, you should get <a
+  href="4ksrc-pack1-glut-sdl.zip">4ksrc-pack1-glut-sdl.zip</a> (229kb) 
+  instead -- it contains all the entries, and the .dlls required to run
+  them on win32.
+</p>
+
+<h1 class="pagetitle">thanks</h1>
+<p>
+  Thanks to all the participants for entering the compo!
+</p>
+<p>
+  Despite having only 4 entries the compo turned out te be quite
+  exciting!  Also thanks to those who tried to enter but didn't make
+  the deadline.
+</p>
+<p>
+  I will try to find someone to organize a sequel to this 4k source
+  compo in a few months.  Or perhaps some of you want to impose some
+  other arbitrary limits instead of the 4k source limit?
+  Whatever you want, please visit us
+  in #demoscene (<a href="http://freenode.net">freenode
+  irc</a>) to discuss this and other topics!
+</p>
+<p class="sig">-- warp</p>

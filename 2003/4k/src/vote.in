@@ -1,0 +1,26 @@
+<h2>entries</h2>
+<p>
+  Four entries have been submitted to the compo, they are:
+</p>
+<ul>
+  <li> 3d by jylam </li>
+  <li> randomname by termos and styx </li>
+  <li> different wavelengths in the visible spectrum by spectre/flare </li>
+  <li> Lollipop hogwagen by tonic </li>
+</ul>
+<p>
+  <a href="4ksrc-pack1.zip">4ksrc-pack1.zip</a> (40kb) contains all
+  the entries + a votesheet.  If you are on windows and don't have
+  glut.dll and sdl.dll in your path, you should get <a
+  href="4ksrc-pack1-glut-sdl.zip">4ksrc-pack1-glut-sdl.zip</a> (229kb) 
+  instead -- it contains all the entries, and the .dlls required to run
+  them on win32.
+</p>
+
+<h2>voting</h2>
+<p>
+  Vote forms will be accepted until friday (2003-03-21), 12:00 CET.  
+  Please read the included vote form carefully before you submit your
+  votes.
+</p>
+

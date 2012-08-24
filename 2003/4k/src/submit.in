@@ -1,0 +1,46 @@
+<p>
+  Before you submit any entry, please read the <a
+  href="rules.html">rules</a> carefully.  
+</p>
+<h2>deadline</h2>
+<p>
+The deadline for submissions is friday 2003/03/14, 18:00 CET.
+(yes, the compo has ended, check the results page to see the entries :).
+</p>
+
+<h2>submitting</h2>
+<p>
+  To submit an entry, prepare a .zip file or tarball (.tar.gz or
+  .tar.bz2) with the following contents:
+</p>
+<ul>
+  <li>the source code for your entry</li>
+  <li>any Makefiles, project workspaces, batch files and shell scripts
+      you use to build your entry</li>
+  <li>a file_id.diz is appreciated, but not required.</li>
+  <li>any other info files you wish to include.</li>
+</ul>
+<p>
+  <b>NOTE</b>: DO NOT SUBMIT ANY EXECUTABLES.
+</p>
+
+<p>
+  With all that out of the way, email your entries to <a
+  href="mailto:fourk@frob.nl">fourk@frob.nl</a>.
+</p> 
+
+<h2>notes</h2>
+<p>
+  If you need/want specific compiler switches to get the best
+  perfomance out of your entry, please include a seperate .txt file
+  with build instructions).
+</p>
+
+<p>
+  If I cannot build your entry you risk the chance of being
+  disqualified (presumably because it's not portable).  I will contact
+  you by email or on #demoscene (<a href="http://freenode.net">freenode
+  irc</a>) if I have trouble building your entry - so you might want
+  to submit your entry a little early to make sure you have enough
+  time to fix any trouble should this occur.  
+</p>
