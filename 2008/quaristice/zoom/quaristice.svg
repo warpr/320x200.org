@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+    <!-- 
+
+    random svg experiments.
+    copyright 2008  Kuno Woudt.
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
+
+    -->
+
+    <svg xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        onload="init();">
+
+    <script>
+        <![CDATA[
+
+        var SVG_NS ="http://www.w3.org/2000/svg";
+        var width = 640;
+        var height = 400;
+        var start_x = 120;
+        var size = 400;
+
+        function d(name)
+        {
+            return document.getElementById (name);
+        }
+
+        function create(name)
+        {
+            c = document.createElementNS(SVG_NS, name);
+
+            return d("main").appendChild (c);
+        }
+
+        function square (x, y, width, height, fill)
+        {
+            r = create ("rect")
+            r.setAttribute ("fill", fill);
+            r.setAttribute ("opacity", "1.0");
+
+            r.setAttribute ("x", start_x + x);
+            r.setAttribute ("y", y);
+            r.setAttribute ("width", width);
+            r.setAttribute ("height", height);
+
+            return r;
+        }
+
+        function fisherYates ( myArray ) 
+        {
+            var i = myArray.length;
+            if ( i == 0 ) return false;
+            while ( --i ) 
+            {
+                var j = Math.floor( Math.random() * ( i + 1 ) );
+                var tempi = myArray[i];
+                var tempj = myArray[j];
+                myArray[i] = tempj;
+                myArray[j] = tempi;
+            }
+
+            return myArray;
+        }
+
+        function init() 
+        {
+            var d = new Date();
+            start_time = d.getTime (); 
+
+            colors = new Array ("#0186C9", "#ffffff", "#000000");
+            colors = fisherYates (colors);
+
+            margin = 10;
+            minsize = 40;
+            offset_x = margin;
+            offset_y = margin;
+            multiplier = size - margin - margin - minsize;
+            square1_width = Math.floor (multiplier * Math.random () + minsize);
+            square (0, 0, size, size, colors[0]);
+            right = false;
+            bottom = false;
+            if (Math.random () > 0.5)
+            {
+                right = true;
+                offset_x = size - margin - square1_width;
+            }
+            if (Math.random () > 0.5)
+            {
+                offset_y = size - margin - square1_width;
+                bottom = true;
+            }
+
+
+            small = true;
+            if ((Math.random () > 0.6) && (square1_width < size/2))
+            {
+                small = false;
+                square (margin, margin, size - margin - margin, size - margin - margin, colors[2]);
+            }
+
+            square (offset_x, offset_y, square1_width, square1_width, colors[1]);
+
+            if (small && (Math.random () > 0.5) && (square1_width < size/2))
+            {
+                multiplier = size - margin - margin - minsize - square1_width;
+                square2_width = Math.floor (multiplier * Math.random () + minsize);
+
+                if (right)
+                {
+                    offset_x = offset_x - square2_width - margin;
+                }
+                else
+                {
+                    offset_x = offset_x + square1_width + margin;
+                }
+                if (bottom)
+                {
+                    offset_y = size - margin - square2_width;
+                }
+                square (offset_x, offset_y, square2_width, square2_width, colors[2]);
+            }
+
+            
+            document.documentElement.setAttribute("viewBox", "0 0 "+width+" "+height);
+            document.documentElement.setAttribute("width", width+"px");
+            document.documentElement.setAttribute("height", height+"px");
+
+            document.getElementById ("background").setAttribute("width", width);
+            document.getElementById ("background").setAttribute("height", height);
+        }
+
+        ]]>
+    </script>
+
+    <a xlink:href="../../quaristice/" target="_top">
+        <rect id="background" fill="#000000" /> 
+        <g id="main" /> 
+    </a>
+
+</svg>
