@@ -1,0 +1,9 @@
+# Although I keep these pages online for future generations of demosceners
+# I don't want this to turn up in google.
+
+User-agent: * # match all bots
+Disallow: / # keep them out
+
+User-agent: ia_archiver
+Allow: /
+

@@ -1,0 +1,292 @@
+BODY {  font-family: Times New Roman, times, serif;
+	font-size: 12pt;
+        line-height: 1.2;
+        text-decoration: none;
+	margin: 1em;
+	border: 0em;
+	padding: 0.2em;
+        background: white;
+        color: #444;
+}
+
+IMG  {  border: 0em }
+
+IMG.member  {  
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	border-left: 0em;
+	border-right: 0em; 
+}
+
+ul   {  font-family: Verdana, arial, helvetica, sans-serif;
+	text-align: justify;
+	padding-left: 3em;
+	padding-right: 3em;
+	text-indent: 0em;
+	margin-left: 15%;
+	margin-right: 5%;
+}
+
+P    {  font-family: Verdana, arial, helvetica, sans-serif;
+	text-align: justify;
+	padding-left: 3em;
+	padding-right: 3em;
+	text-indent: 0em;
+	margin-left: 10%;
+	margin-right: 5%;
+}
+
+P.link { font-family: Verdana, arial, helvetica, sans-serif;
+	text-align: right;
+	padding-left: 3em;
+	padding-right: 3em;
+	text-transform: lowercase;
+	text-indent: 0em;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+P.blink { font-family: Verdana, arial, helvetica, sans-serif;
+	text-align: justify;
+	padding-left: 3em;
+	padding-right: 3em;
+	text-transform: lowercase;
+	text-indent: 0em;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 0em;
+}
+
+TD   {  font-family: Courier New, courier, monospace;
+	text-align: justify;
+	text-indent: 0em;
+	margin: 0em;
+	font-size: 80%;
+	border: 0px solid white;
+}
+
+TD.cred {  font-family: Courier New, courier, monospace;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	text-align: left;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-right: 0em%;
+	font-size: 80%;
+	text-transform: lowercase;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	background: #FCE8FF;
+}
+TD.cred2 {  font-family: Courier New, courier, monospace;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	text-align: right;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-right: 0em%;
+	font-size: 80%;
+	text-transform: lowercase;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	background: #FCE8FF;
+}
+
+TD.link {  font-family: Courier New, courier, monospace;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	text-align: right;
+	text-indent: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	font-size: 80%;
+	font-style: italic;
+	text-transform: lowercase;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+TD.releases {  font-family: Verdana, arial, helvetica, sans-serif;
+	letter-spacing: 1em;
+	text-align: left;
+	text-indent: 0em;
+	font-size: 100%;
+	font-style: none;
+	font-weight: bolder;
+	text-transform: lowercase;
+	border-top: 2px solid black;
+	border-left: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	margin: 0em;
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-top: 0em;
+	padding-bottom: 0em;
+	background: #F8E0FF;
+}
+TD.member {  font-family: Verdana, arial, helvetica, sans-serif;
+	text-align: right;
+	text-indent: 0em;
+	font-size: 100%;
+	font-style: none;
+	font-weight: bolder;
+	text-transform: lowercase;
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: 0px;
+	border-right: 20px solid white;
+	margin: 0em;
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-top: -0.1em;
+	padding-bottom: -0.1em;
+}
+TD.ifile { font-family: Verdana, arial, helvetica, sans-serif;
+	text-align: right;
+	font-size: 100%;
+	font-style: none;
+	font-weight: bolder;
+	letter-spacing: 0.2em;
+	padding: 0em;
+	padding-right: 3em;
+	text-transform: lowercase;
+	text-indent: 0em;
+	margin: 0%;
+}
+TD.itext { font-family: Courier New, courier, monospace;
+	text-align: left;
+	font-size: 80%;
+	font-style: none;
+	letter-spacing: 0em;
+	padding: 0em;
+	text-transform: lowercase;
+	text-indent: 0em;
+	margin: 5%;
+}
+TD.idesc { font-family: Verdana, arial, helvetica, sans-serif;
+	text-align: justify;
+	font-size: 80%;
+	font-style: none;
+	letter-spacing: 0.2em;
+	padding: 3em;
+	text-transform: lowercase;
+	text-indent: 0em;
+	margin: 5%;
+}
+
+
+H2   {  font-size: 200%; 
+        font-family: Courier New, courier, monospace;
+        letter-spacing: 0.5em;
+	text-transform: lowercase;
+	text-align: left;
+	border: 1px solid black;
+	margin-right: 30%;
+	padding-left: 1em;
+	background: #ECF;
+}
+
+H3   {  font-size: 100%; 
+        font-family: Courier New, courier, monospace;
+        letter-spacing: 0.5em;
+	text-transform: lowercase;
+	text-align: left;
+	border: 1px solid black;
+	margin-right: 30%;
+	padding-left: 1em;
+	background: #ECF;
+}
+ 
+H4   {  font-size: 75%; 
+        font-family: Verdana, arial, helvetica, sans-serif;
+	font-style: italic;
+        font-weight: lighter;
+        letter-spacing: 0.1em;
+	text-transform: lowercase;
+	text-align: right;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	margin-left: 10%;
+	padding-right: 1em;
+}
+
+H2.main {  font-size: 100%; 
+        font-family: Verdana, arial, helvetica, sans-serif;
+	line-height: 100%;
+        letter-spacing: 1em;
+	text-transform: lowercase;
+	text-align: right;
+	border-left-width: 0px;
+	border-top-width: 0px;
+	border-bottom: 0px;
+	border-right: 1px solid #CAD;
+	background: #FFFFFF;
+	margin: 0em;
+	padding: 1em;
+}
+
+EM   {	color: #97A;
+	font-style: normal;
+        font-weight: bolder;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+STRONG { font-style: italic;
+         font-weight: normal;
+	 text-decoration: none;
+}
+                
+A:link    { text-decoration: none;
+            color: #444;
+}
+
+A:visited { text-decoration: none;
+            color: #444;
+}
+
+A:active  { text-decoration: none;
+            color: #444;
+}
+
+
+P A:link    { text-decoration: none;
+            color: #444;
+            background: #F8E8FF;
+}
+
+P A:visited { text-decoration: line-through;
+            color: #444;
+            background: #F8E8FF;
+}
+
+P A:active  { text-decoration: underline;
+            color: #444;
+            background: #F8E8FF;
+}
+
+P.blink A:link    { text-decoration: none;
+            color: #444;
+            background: #FFF;
+}
+
+P.blink A:visited { text-decoration: line-through;
+            color: #444;
+            background: #FFF;
+}
+
+P.blink A:active  { text-decoration: underline;
+            color: #444;
+            background: #FFF;
+}
+
+
+
