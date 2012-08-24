@@ -1,0 +1,162 @@
+<html>
+<head>
+<title>/var/www/320x200.org/2007/balls.svg.html</title>
+<meta name="Generator" content="Vim/7.0">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body bgcolor="#000000" text="#ffffff">
+<pre>
+<font color="#00ffff"><b>&lt;?</b></font><font color="#00ff00"><b>xml</b></font><font color="#00ff00"><b> </b></font><font color="#00ff00"><b>version</b></font>=<font color="#ff40ff"><b>&quot;1.0&quot;</b></font><font color="#00ffff"><b>?&gt;</b></font>
+<font color="#00ffff"><b>&lt;!</b></font><font color="#ffff00"><b>DOCTYPE</b></font> svg <font color="#ffff00"><b>PUBLIC</b></font> <font color="#ff40ff"><b>&quot;-//W3C//DTD SVG 1.1//EN&quot;</b></font>
+    <font color="#ff40ff"><b>&quot;<a href="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd</a>&quot;</b></font><font color="#00ffff"><b>&gt;</b></font>
+
+    <font color="#00ffff"><b>&lt;!</b></font><font color="#00ffff"><b>-- </b></font>
+
+<font color="#00ffff"><b>    random svg experiments.</b></font>
+<font color="#00ffff"><b>    copyright 2007  Kuno Woudt.</b></font>
+
+<font color="#00ffff"><b>    Permission is hereby granted, free of charge, to any person obtaining a copy</b></font>
+<font color="#00ffff"><b>    of this software and associated documentation files (the &quot;Software&quot;), to deal</b></font>
+<font color="#00ffff"><b>    in the Software without restriction, including without limitation the rights</b></font>
+<font color="#00ffff"><b>    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</b></font>
+<font color="#00ffff"><b>    copies of the Software, and to permit persons to whom the Software is</b></font>
+<font color="#00ffff"><b>    furnished to do so, subject to the following conditions:</b></font>
+
+<font color="#00ffff"><b>    The above copyright notice and this permission notice shall be included in</b></font>
+<font color="#00ffff"><b>    all copies or substantial portions of the Software.</b></font>
+
+<font color="#00ffff"><b>    THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</b></font>
+<font color="#00ffff"><b>    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</b></font>
+<font color="#00ffff"><b>    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</b></font>
+<font color="#00ffff"><b>    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</b></font>
+<font color="#00ffff"><b>    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</b></font>
+<font color="#00ffff"><b>    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN</b></font>
+<font color="#00ffff"><b>    THE SOFTWARE.</b></font>
+
+<font color="#00ffff"><b>    --</b></font><font color="#00ffff"><b>&gt;</b></font>
+
+    <font color="#00ffff"><b>&lt;</b></font><font color="#00ffff"><b>svg</b></font><font color="#00ffff"><b> </b></font><font color="#00ff00"><b>xmlns</b></font>=<font color="#ff40ff"><b>&quot;<a href="http://www.w3.org/2000/svg">http://www.w3.org/2000/svg</a>&quot;</b></font>
+<font color="#00ffff"><b>        </b></font><font color="#00ff00"><b>xmlns</b></font><font color="#00ffff"><b>:</b></font><font color="#00ff00"><b>xlink</b></font>=<font color="#ff40ff"><b>&quot;<a href="http://www.w3.org/1999/xlink">http://www.w3.org/1999/xlink</a>&quot;</b></font>
+<font color="#00ffff"><b>        </b></font><font color="#00ff00"><b>onload</b></font>=<font color="#ff40ff"><b>&quot;init();&quot;</b></font><font color="#00ffff"><b>&gt;</b></font>
+
+    <font color="#00ffff"><b>&lt;</b></font><font color="#00ffff"><b>script</b></font><font color="#00ffff"><b>&gt;</b></font>
+        <font color="#00ff00"><b>&lt;![</b></font><font color="#ffff00"><b>CDATA</b></font><font color="#00ff00"><b>[</b></font>
+
+<font color="#ff40ff"><b>        var SVG_NS =&quot;<a href="http://www.w3.org/2000/svg">http://www.w3.org/2000/svg</a>&quot;;</b></font>
+<font color="#ff40ff"><b>        var width = 640;</b></font>
+<font color="#ff40ff"><b>        var height = 400;</b></font>
+<font color="#ff40ff"><b>        var multiplier = width / 800;</b></font>
+<font color="#ff40ff"><b>        var tick_time = 10;</b></font>
+<font color="#ff40ff"><b>        var start_time;</b></font>
+<font color="#ff40ff"><b>        var last_time;</b></font>
+<font color="#ff40ff"><b>        var balls;</b></font>
+
+<font color="#ff40ff"><b>        function d(name)</b></font>
+<font color="#ff40ff"><b>        {</b></font>
+<font color="#ff40ff"><b>            return document.getElementById (name);</b></font>
+<font color="#ff40ff"><b>        }</b></font>
+
+<font color="#ff40ff"><b>        function create(name)</b></font>
+<font color="#ff40ff"><b>        {</b></font>
+<font color="#ff40ff"><b>            c = document.createElementNS(SVG_NS, name);</b></font>
+
+<font color="#ff40ff"><b>            return d(&quot;main&quot;).appendChild (c);</b></font>
+<font color="#ff40ff"><b>        }</b></font>
+
+<font color="#ff40ff"><b>        function init_ball(name)</b></font>
+<font color="#ff40ff"><b>        {</b></font>
+<font color="#ff40ff"><b>            c = create (&quot;circle&quot;);</b></font>
+<font color="#ff40ff"><b>            c.setAttribute (&quot;fill&quot;, &quot;#ccffcc&quot;);</b></font>
+<font color="#ff40ff"><b>            c.setAttribute (&quot;opacity&quot;, &quot;0.3&quot;);</b></font>
+
+<font color="#ff40ff"><b>            return c;</b></font>
+<font color="#ff40ff"><b>        }</b></font>
+
+<font color="#ff40ff"><b>        function init() </b></font>
+<font color="#ff40ff"><b>        {</b></font>
+<font color="#ff40ff"><b>            var d = new Date();</b></font>
+<font color="#ff40ff"><b>            start_time = d.getTime (); </b></font>
+
+<font color="#ff40ff"><b>            balls = new Array ();</b></font>
+
+<font color="#ff40ff"><b>            for (i = 0; i &lt; 7; i++)</b></font>
+<font color="#ff40ff"><b>            {</b></font>
+<font color="#ff40ff"><b>                balls.push (init_ball());</b></font>
+<font color="#ff40ff"><b>            }</b></font>
+<font color="#ff40ff"><b>            </b></font>
+<font color="#ff40ff"><b>            document.documentElement.setAttribute(&quot;viewBox&quot;, &quot;0 0 &quot;+width+&quot; &quot;+height);</b></font>
+<font color="#ff40ff"><b>            document.documentElement.setAttribute(&quot;width&quot;, width+&quot;px&quot;);</b></font>
+<font color="#ff40ff"><b>            document.documentElement.setAttribute(&quot;height&quot;, height+&quot;px&quot;);</b></font>
+
+<font color="#ff40ff"><b>            document.getElementById (&quot;background&quot;).setAttribute(&quot;width&quot;, width);</b></font>
+<font color="#ff40ff"><b>            document.getElementById (&quot;background&quot;).setAttribute(&quot;height&quot;, height);</b></font>
+
+<font color="#ff40ff"><b>            setTimeout(&quot;tick()&quot;, tick_time);</b></font>
+<font color="#ff40ff"><b>        }</b></font>
+
+<font color="#ff40ff"><b>        function cartesian (radius, angle)</b></font>
+<font color="#ff40ff"><b>        {</b></font>
+<font color="#ff40ff"><b>            var x = radius * Math.cos(angle);</b></font>
+<font color="#ff40ff"><b>            var y = radius * Math.sin(angle);</b></font>
+
+<font color="#ff40ff"><b>            return [x, y];</b></font>
+<font color="#ff40ff"><b>        }</b></font>
+
+
+<font color="#ff40ff"><b>        function rotating_balls (ticks)</b></font>
+<font color="#ff40ff"><b>        {</b></font>
+<font color="#ff40ff"><b>            radius = 100;</b></font>
+<font color="#ff40ff"><b>            angle = 0.0006 * ticks;</b></font>
+<font color="#ff40ff"><b>            offset_x = 600;</b></font>
+<font color="#ff40ff"><b>            offset_y = 180;</b></font>
+
+<font color="#ff40ff"><b>            offset = Math.PI * 2 / balls.length;</b></font>
+
+<font color="#ff40ff"><b>            for (i = 0; i &lt; balls.length; i++)</b></font>
+<font color="#ff40ff"><b>            {</b></font>
+<font color="#ff40ff"><b>                a = angle + i * offset;</b></font>
+<font color="#ff40ff"><b>                size = 50 + 20 * Math.sin (a + 2);</b></font>
+<font color="#ff40ff"><b>                c = cartesian (radius, a);</b></font>
+
+<font color="#ff40ff"><b>                balls[i].setAttribute (&quot;cx&quot;, multiplier * (c[0] + offset_x));</b></font>
+<font color="#ff40ff"><b>                balls[i].setAttribute (&quot;cy&quot;, multiplier * (c[1] + offset_y));</b></font>
+<font color="#ff40ff"><b>                balls[i].setAttribute (&quot;r&quot;, multiplier * size);</b></font>
+<font color="#ff40ff"><b>            }</b></font>
+<font color="#ff40ff"><b>        }</b></font>
+
+<font color="#ff40ff"><b>        function tick()</b></font>
+<font color="#ff40ff"><b>        {</b></font>
+<font color="#ff40ff"><b>            var d = new Date ();</b></font>
+<font color="#ff40ff"><b>            last_time = d.getTime ();</b></font>
+<font color="#ff40ff"><b>            ticks = last_time - start_time;</b></font>
+
+<font color="#ff40ff"><b>            rotating_balls (ticks);</b></font>
+
+<font color="#ff40ff"><b>            setTimeout(&quot;tick()&quot;, tick_time);</b></font>
+<font color="#ff40ff"><b>        }</b></font>
+
+<font color="#ff40ff"><b>        </b></font><font color="#00ff00"><b>]]&gt;</b></font>
+    <font color="#00ffff"><b>&lt;/script&gt;</b></font>
+
+    <font color="#00ffff"><b>&lt;</b></font><font color="#00ffff"><b>a</b></font><font color="#00ffff"><b> </b></font><font color="#00ff00"><b>xlink</b></font><font color="#00ffff"><b>:</b></font><font color="#00ff00"><b>href</b></font>=<font color="#ff40ff"><b>&quot;<a href="http://320x200.org/post.psp/2007/balls.txt">http://320x200.org/post.psp/2007/balls.txt</a>&quot;</b></font><font color="#00ffff"><b> </b></font><font color="#00ff00"><b>target</b></font>=<font color="#ff40ff"><b>&quot;_top&quot;</b></font><font color="#00ffff"><b>&gt;</b></font>
+        <font color="#00ffff"><b>&lt;</b></font><font color="#00ffff"><b>rect</b></font><font color="#00ffff"><b> </b></font><font color="#00ff00"><b>id</b></font>=<font color="#ff40ff"><b>&quot;background&quot;</b></font><font color="#00ffff"><b> </b></font><font color="#00ff00"><b>fill</b></font>=<font color="#ff40ff"><b>&quot;#000000&quot;</b></font><font color="#00ffff"><b> /&gt;</b></font>
+        <font color="#00ffff"><b>&lt;</b></font><font color="#00ffff"><b>g</b></font><font color="#00ffff"><b> </b></font><font color="#00ff00"><b>id</b></font>=<font color="#ff40ff"><b>&quot;main&quot;</b></font><font color="#00ffff"><b> /&gt;</b></font>
+    <font color="#00ffff"><b>&lt;/a&gt;</b></font>
+
+<font color="#00ffff"><b>&lt;/svg&gt;</b></font>
+</pre>
+
+      <!-- Piwik --> 
+      <script type="text/javascript">
+          var pkBaseURL = (("https:" == document.location.protocol) ? "https://frob.nl/piwik/" : "http://frob.nl/piwik/");
+          document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+          </script><script type="text/javascript">
+          try {
+              var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+              piwikTracker.trackPageView();
+              piwikTracker.enableLinkTracking();
+          } catch( err ) {}
+      </script><noscript><p><img src="http://frob.nl/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+      <!-- End Piwik Tracking Code -->
+</body>
+</html>
