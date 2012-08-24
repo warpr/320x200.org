@@ -1,0 +1,132 @@
+
+<html>
+    <head>
+        <title>320x200.org, Profiling for fun and profit (using gravatars)..</title>
+        <link rel="stylesheet" href="../../2011/blog.css" type="text/css">
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://320x200.org/rss.xml">
+    </head>
+    <body>
+        
+        <div class="copyright">
+            &copy; 2007-2009 <a href="mailto:kuno@frob.nl">Kuno Woudt</a>, <a rel="license" 
+                href="http://creativecommons.org/licenses/by-sa/3.0/nl/">cc-by-sa</a>.
+        </div>
+ 
+        <div class="picta"><a href="zoom/"><img class="thumbnail" src="avatar_mosaic.jpg" alt="Profiling for fun and profit (using gravatars)." title="Profiling for fun and profit (using gravatars)." width="320" height="200" /></a></div>
+
+        <div class="menu">
+            <h2>categories</h2>
+            <p><a href="../../archive/">archive</a></p>
+            <h2>elsewhere</h2>
+            <p><a href="http://www.frob.nl">frob</a><br /><a href="http://www.flickr.com/photos/kuno/">flickr</a><br /><a href="http://identi.ca/warp/">identi.ca</a><br /><a href="http://twitter.com/byld/">twitter</a></p>
+            <p><a href="http://320x200.org/rss.xml"><img src="../../2011/feed-icon-14x14.png" /></a></p>
+        </div>
+
+        <div class="post"><h1>Profiling for fun and profit (using gravatars).</h1>
+<p>I have been using sites which use gravatars for quite some time.  I probably
+   saw them first on blog posts, but more recently many websites such as 
+   stackoverflow, uservoice, userscripts, etc..  have all started using gravatars.
+</p>
+<p>I assume you know what gravatars are, if not, please have a quick look at
+   <a href="http://www.gravatar.com">www.gravatar.com</a>, and come back here afterward.
+</p>
+<p>So, gravatars.  My gravatar looks like this:
+</p>
+<img src="http://www.gravatar.com/avatar/28f68a836b57094162e2b56f4c5c73aa?s=96" />
+
+<p>The url for that image is http://www.gravatar.com/avatar/28f68a836b57094162e2b56f4c5c73aa?s=96.
+</p>
+<p>I signed up at gravatar.com, uploaded a picture, and that's what my gravatar is.  You
+   can do this too.  If you do not, gravatar will give you an identicon:
+</p>
+<img src="http://www.gravatar.com/avatar/ec9385dc533f1a6a93769077f852503e?s=96&d=identicon" />
+
+<p>Or a monsterid:
+</p>
+<img src="http://www.gravatar.com/avatar/ec9385dc533f1a6a93769077f852503e?s=96&d=monsterid" />
+
+<p>Or a different default image chosen by the site operator.  In all cases, the image you see on your 
+   user profile on stackoverflow is the same image you see on uservoice, or on a blog post, or
+   on libre.fm, etc.  This works because every time you make a blog post, or sign up for some site, 
+   you enter an email address.  Most people use the same email address for all the
+   sites they visit.  The site you visit turns your email address into a gravatar
+   url.  <br />
+</p>
+<p>How you calculate the gravatar url from an email address is documented <a href="http://en.gravatar.com/site/implement/url">here</a>.
+   When I follow those instructions, I get this:
+</p>
+<p>http://www.gravatar.com/avatar/28f68a836b57094162e2b56f4c5c73aa.jpg
+</p>
+<p>Which, as you may have noticed is almost the same url I mentioned at the start of my post.  Which 
+   is the url stackoverflow puts on my profile page.  It is also the same url used when I comment on 
+   the musicbrainz blog, or the same url on my libre.fm profile page.  And remember, most of these 
+   sites will always publish that url, whether you have signed up at gravatar or not.  Now isn't 
+   that interesting?  <br />
+</p>
+<p>Let's say I have a list of email addresses harvested from some place, and I want to figure
+   out if they're coders so I can send them targeted spam.  Let's figure out what they call
+   themselves too, so I can address them as &quot;Dear <name>,&quot;.  To do that, I will have to find 
+   some way to get all gravatar urls from stackoverflow.  How hard would that be?
+</p>
+<p>It turns out that for stackoverflow, it is quite simple.  Stackoverflow uses 
+   sequential userids, so it took me only a few minutes to generate urls to every single 
+   profile url on stackoverflow.  I then ran a script to fetch all those urls (with a 1 
+   second pause between fetches because I did not want to hammer their servers too much). 
+   I used a few separate servers simultaneously and had all stackoverflow profiles the 
+   next morning.
+</p>
+<p>userscripts.org and uservoice.com also have gravatars and use sequential userids, so
+   would be just as easy to fetch.  And when you've harvested them once, it will be even 
+   easier to fetch only the new profiles every day to keep your gravatar database updated.
+   A site which doesn't use sequential userids is a bit harder to harvest, but I think for 
+   most sites this shouldn't be much of a problem.
+</p>
+<p>As a proof-of-concept, I needed something to compare my nice collection of stackoverflow
+   gravatars with.  So I also fetched the gravatars from everyone who commented
+   on the issues at musicbrainz.uservoice.com and everyone who commented on blog posts at
+   blog.musicbrainz.org.  I am not going to publish any user profiles here, but from my 
+   very limited set of uservoice/blog harvesting I could match 27 musicbrainz people to 
+   their stackoverflow accounts.  Most of these used more-or-less the same name or nick 
+   on both sites, so it would've been easy to link them anyway -- but that is <b>their</b>
+   choice.  Some do use different names, and may want to keep these identities separate, 
+   which obviously they have a right to.
+</p>
+<p>So, how serious is all this?
+</p>
+<p>The more sites start using gravatar, the more interesting information can be
+   collected about their users.  What if a torrentsite like thepiratebay uses
+   gravatars?  Or facebook?  Or an adult site?  A dating site?  A site about
+   dieting?  A site about your weird furry roleplaying fetish?  You may not want
+   those identities linked.  If you know how gravatar works, you can work around
+   this by using a different email address for each identity.  But if you don't,
+   how would you know those sites are publishing information about you which can
+   tie you to other sites?  www.gravatar.com doesn't mention that, the sites using
+   gravatar do not mention that.   And remember, in almost all cases, there is
+   <b>no</b> opt-out: the gravatar url will be published whether you actually have
+   a gravatar or not.
+</p>
+<p>So, to conclude.  If you are running a site which uses gravatars, please allow 
+   users to turn them off, and more importantly, educate your users on the risks.
+</p>
+<p>Thank you for reading :)
+</p>
+<p>ps. Image by Jared, taken from http://www.flickr.com/photos/generated/323388124/
+</p></div>
+        <div class="meta"><p>&#147;Profiling for fun and profit (using gravatars).&#148; last changed on 2009-04-17 by warp.</p></div>
+
+    
+      <!-- Piwik --> 
+      <script type="text/javascript">
+          var pkBaseURL = (("https:" == document.location.protocol) ? "https://frob.nl/piwik/" : "http://frob.nl/piwik/");
+          document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+          </script><script type="text/javascript">
+          try {
+              var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+              piwikTracker.trackPageView();
+              piwikTracker.enableLinkTracking();
+          } catch( err ) {}
+      </script><noscript><p><img src="http://frob.nl/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+      <!-- End Piwik Tracking Code -->
+</body>
+</html>
+

@@ -1,0 +1,7 @@
+byld
+byld.png
+
+Many years ago I wrote a photo album called photo.php.  At some point it was rewritten
+from scratch, and called byld.  I am no longer actively developing it, but it can still 
+be downloaded [here](/attic/files/byld-0.5.60.tar.gz).
+

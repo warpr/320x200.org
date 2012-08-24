@@ -1,0 +1,12 @@
+mpdscribble
+mpdscribble.png
+
+mpdscribble is a music player daemon client which submits information about
+tracks being played to audioscrobbler.
+
+I originally wrote mpdscribble as I was not entirely happy with mpdscrobbler.
+However, I am no langer maintaining it.  Max Kellermann has taken over
+development, you will find his versions on the 
+[mpd wiki](http://mpd.wikia.com/wiki/Client:Mpdscribble).  Old versions
+are archived [here](/attic/mpdscribble/).
+
