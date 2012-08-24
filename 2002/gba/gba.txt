@@ -1,0 +1,22 @@
+gameboy advance
+fairy.png
+
+I have been working on some gameboy advance related projects, here are some
+toys:
+
+womb-0.3.1 is a linux kernel module for the dumb multiboot cable designed by Ajo at 
+[GBA Multiboot Inteligent Cable](http://web.archive.org/web/20031101141836/http://ajo.thinknerd.com/gba/). 
+The kernel module turns out to be less reliable compared to the dos version, even 
+though it should have full control of the machine during transfer (more research 
+required :). The module needs devfs, and has so far only been used with kernel 2.4.x.
+
+Womb started life as a direct dos port of Ajo's dmb, this version seems to be more 
+reliable on the machines I have tested it on. (if you are using a win32 system, you 
+may need a tool such as winzip to extract .tar.gz files).
+
+fairy-0.2.18 is a little test screen I wrote to play with the sprite registers.
+
+* [fairy-0.2.18.tar.gz](/attic/files/fairy-0.2.18.tar.gz)
+* [womb-0.3.1.tar.gz](/attic/files/womb-0.3.1.tar.gz)
+* [womb-dos-0.3.0.tar.gz](/attic/files/womb-dos-0.3.0.tar.gz)
+

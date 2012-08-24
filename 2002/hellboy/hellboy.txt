@@ -1,0 +1,1404 @@
+Hellboy: Asylum Seeker (PC)
+FAQ/Walkthrough version 0.5
+Copyright (c) 2001, 2002  Kuno Woudt <kuno@frob.nl>.
+
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.1
+or any later version published by the Free Software Foundation;
+with no Invariant Sections, with no Front-Cover Texts, and with no
+Back-Cover Texts.  A copy of the license is included in the section
+entitled "GNU Free Documentation License".
+
+
+  [fancy ascii art goes here :]
+
+
+======================================================================
+0.  Preface
+======================================================================
+
+    This is my first FAQ, so if you like it please send me a message
+    to encourage me to write more FAQs :).
+
+    Now, feel free to jump to whichever section you are looking for,
+    or read on for a general (boring) introduction to this FAQ.
+
+      -- Kuno Woudt <kuno@frob.nl>
+
+======================================================================
+1.  Table of Contents
+======================================================================
+
+0.  Preface
+1.  Table of Contents
+2.  Introduction
+2.1.  URLs
+2.2.  History
+3.  Walkthrough
+3.1.  Episode One
+3.1.1.  E1 - Grave Yard
+3.2.  Episode Two
+3.2.1.  E2 - Underground Passage
+3.2.2.  E2 - Asylum
+3.3.  Episode Three
+3.3.1.  E3 - Tower Grounds
+3.3.2.  E3 - Library
+3.3.3.  E3 - Sacristy
+3.3.4.  E3 - Tower Roof
+3.4.  Episode Four
+3.4.1.  E4 - Asylum Recreation Room
+3.4.2.  E4 - Sewers
+3.4.3.  E4 - Elevator Room
+3.5.  Episode Five
+3.5.1.  E5 - Town
+3.6.  Episode Six
+4. Feedback
+4.1  Music Books
+4.2  Developer
+5.  Cheats
+5.1.  hell_e2.bat
+5.2.  hell_e4.bat
+6.  GNU Free Documentation License
+7.  EOF
+
+======================================================================
+2.  Introduction
+======================================================================
+
+    Hi,
+
+    You are reading the FAQ for Cryo Interactive's Hellboy game.  This
+    is my first game FAQ, so please send any questions, suggestions,
+    flames, fanmail, etc... to <kuno@frob.nl>.
+
+    (if you send me something which I might want to add to the FAQ,
+    let me know how you want to be mentioned (no email address, spam
+    protected email address, etc... )
+
+    Hellboy is originally a comic book character created by Mike
+    Mignola, these Hellboy comics are published by Dark Horse.  (yes,
+    you should buy them, Hellboy is one the best comic series I
+    know).
+
+    However, I must warn you - this game might not live up to your
+    expectations: 
+
+      1. the game engine can be quite buggy.
+      2. some of the fights can be frustrating.
+
+    (I ran into many problems with my nvidia TNT2, using their
+     detonator drivers.  Installing the drivers from my video card
+     manufacturer (ELSA) seems to have made the game a lot more
+     stable). 
+
+    So, unless you are a devoted Mike Mignola fan, this game might not
+    be worth your trouble.
+
+======================================================================
+2.1.  URLs
+======================================================================
+
+    This FAQ is available from gamefaqs: http://www.gamefaqs.com,
+    and from my personal homepage at http://warp.frob.nl
+
+    Dark Horse is at http://www.darkhorse.com.
+    Cryo is at: http://www.cryo-interactive.com.
+    Hellboy game: http://www.hellboy-game.com.    
+
+    The GNU Free Documentation License and related materials:
+    http://www.gnu.org/copyleft/.
+
+    You can find me on irc in channel #demoscene on openprojects irc
+    (http://www.openprojects.net), however this channel is not related
+    to computer games at all, so you should only use it to find me if
+    my email adress doesn't work anymore. (my nick is `warp'). 
+
+======================================================================
+2.2.  History
+======================================================================
+
+    2002/11/02 - Kuno Woudt <kuno@frob.nl>
+      - version 0.5.
+      - some more feedback, new email adress.
+
+    2002/03/26 - Kuno Woudt <warp-tmt@dds.nl>
+      - version 0.4.
+      - added feedback on Peter's letter and the music books.
+
+    2001/08/25 - Kuno Woudt <warp-tmt@dds.nl>
+      - version 0.2.
+      - added Episode Four through Six and some other things.
+
+    2001/08/21 - Kuno Woudt <warp-tmt@dds.nl>
+      - first version.
+
+======================================================================
+3.  Walkthrough
+======================================================================
+
+    Throughout this FAQ I will use the following conventions:
+
+    <RUN>, <ATTACK>, <ACTION> press the corresponding key.
+    <GUN>, <FIST> attack with the appropriate weapon.
+    <ATTACK> attack with some other weapon.
+    <USE> press the `use item' key.
+
+    [HEALTH] a health box/kit whatever item lying about.
+    [AMMO] some ammo for you to pick up.
+    [SAVE] a save point.
+
+    I have drawn maps for some areas, near each map should be a legend
+    explaining which character means what.  Some common characters
+    are:
+
+    S = save point
+    H = health
+    # = a door
+    A = ammo
+
+======================================================================
+3.1.  Episode One
+======================================================================
+
+    After picking up Peter's lighter you are ready to explore the
+    Grave Yard.  Walk up the steps and continue until you see a
+    tree.  Try <ACTION> on the gate towards your right and you will
+    find out it is locked.  Turn around and enter the small building
+    opposite from where you are standing (press <ACTION> near the
+    door), now press <ACTION> near the stone opposite the door -
+    Hellboy will say something like "Hey, that did something.". 
+    Exit and walk over to the other small building near the steps,
+    again press the stone inside which will now unlock the gate.
+
+    After passing through the gate you will encounter some zombies
+    while exploring the area.  Use your <FIST> to defeat these 
+    and grab the [HEALTH] before walking up the steps to the next
+    area.
+
+    After the conversation between Sara and Hellboy you can try
+    <ACTION> on the door next to Peter - it is locked.  Walk over to
+    the grave yard where you will see a magical hourglass, press
+    <ACTION> near it to discover it is a [SAVE] point (well you could
+    have read that in the manual too).  
+
+    NOTE: this might be a good moment to try the cheat in section 5.
+
+======================================================================
+3.1.1.  E1 - Grave Yard
+======================================================================
+
+    Use the entrance next to the [SAVE] point.  You will be attacked by
+    a giant bird.  If you don't feel like fighting just <RUN> over to
+    the end of the clearing and fetch the key, then <RUN> back and
+    exit this area.
+
+    If you do kill the bird you will be greeted with another zombie
+    when you enter the grave yard again, but atleast you will get a
+    [HEALTH] after killing it.  You should probaby [SAVE] again.
+
+    Now, <USE> the key to unlock the door next to Peter, then open it
+    with <ACTION>.
+
+======================================================================
+3.2.  Episode Two
+======================================================================
+
+    When you start Episode Two you should see a torch on either side,
+    <USE> your lighter to light one and pick it up.  Next use your
+    <FIST> to punch the two zombies in the room - they are easily
+    defeated, and walk over to the left of the room.  There is a stone
+    between the 3rd and 4th `coffins' which you can push with <ACTION>
+    to open the door on the far side of the room.  <RUN> to the door
+    before it closes.
+
+    In the next room you will find four stones.
+    
+    1. a triangular one on the left, I shall call that stone 1.
+    2. a square stone on the right.
+    3. a roundish stone on the right.
+    4. a roundish stone on the middle pillar on the left.
+
+    You will not need stone 3.  Place stone 4 on the left pillar,
+    stone 1 on the middle pillar and stone 2 on the right pillar.
+    (the logic behind this might have to do with the height of each
+    pillar.  I am not sure myself - I just tried all combinations until
+    I found the right one).
+
+    After placing the stones a bridge will appear toward the other
+    side, cross the bridge and [SAVE].
+
+======================================================================
+3.2.1.  E2 - Underground Passage
+======================================================================
+
+    Walking along you will come across a door behind a pit of fire,
+    press <ACTION> near one of the posts on either side of the door to
+    attach a torch to it.  Now run back to the save point and grab the
+    torch on the other side of the wall, again use <ACTION> to attach
+    the torch to a post to unlock the door.    
+
+    Open the next door by pressing <ACTION> near the cross to the
+    right of the door, this turns out to be an elevator.
+
+    NOTE: there is also a secret door a bit further along on the left
+    wall, but there is now way to open it right now.
+
+    After arriving in the church press <ACTION> to play a tune on the
+    organ and you will find some [AMMO].
+
+    When you have talked to the ghost on the other side of the church
+    and opened the door with <ACTION> you will be outside again.  Walk
+    towards the camera to be attacked by a monster - as with the bird
+    you don't have to kill it - you can outrun it if you want.
+
+    Run along and press <ACTION> to open the wooden gates.  To be
+    attacked by yet another monster - you'll be happy to know that
+    this one leaves before you get a chance to fight it.
+
+    Follow the path to a mansion, enter it and [SAVE].
+
+======================================================================
+3.2.2.  E2 - Asylum
+======================================================================
+                                                   _____   _
+                                                  |     | | |
+                                                  |     | |_|
+             ___                                  |     |
+          __|   |___        ___   ___   _____   __|     |
+         /__     __ \      |   |_|   |_|     |_|        |
+       //   |___|  \ |     |    _  H  _       _   frogs |
+     _||_     ____/ /___   |___| |___| |     | |________|
+    |    |   |____   _  |   ___   ___  |     |  ___   ___
+    |_   |        | | | |  |   |_|   |_|     |_|   |_|   |
+      |  |__      |_| | |  |    _     _       _     _    |
+      |  |  |         | |__|___| |___| |     | |___| |___|
+      |  |__|         |______|_   ___  |     |  ___   ___
+     _|__|                 |   |_|   |_|     |_|   |_|   |
+    |   |                  |    _     _       _     _    |
+    |___|                  |___| |___| |     | |___| |___|
+                                       |_   _|
+        H = Herman              _________|#|_______________
+        S = [SAVE]             |               |           |
+        F = file cabinet       |               |   garden  |
+        M = map                |   Asylum      |           |
+        f = fountain           |               #    /~\    |
+        s = sprinklers         |               |   ( O )   |
+        # = door               |               |    \_/    |
+                  _________    |               |           |
+                 |         |___|          _____|_          |
+                 |  |______|             |       |     __  |
+           +-->  |  \______|             #       |  __|  \_|_
+           |     \_________#             |      _| |_____/ | |
+           |               |___    ______|_____|s______|__f| |
+         guard room            |##|                    |_____|
+                               |  |                              
+                 _____    _____|##|_____________              
+                |     |  |              |  |  | |             
+                |F    |  |              |  |  # |
+                |     |  |     ____     |  |  |_|
+                |     |  |    |    |    |  |  | |
+                |nurse \_|    #    #    |     | |
+                |________#    |    |    #      \|
+                         |    |    |    |___    | <- library
+                         |    |    |    |   |M  |
+                         |____|   S|____|   |___|
+                              |____|
+
+    Walk to the area I have labeled `nurse' on the map.  A nurse will
+    attack you and take your gun, so you will have to defeat her with
+    your <FIST>.  After throwing her out of the window press <ACTION>
+    on the file cabinet a few times to learn that Pavlov was last seen
+    near the library, and that he stole a key.  Walk behind the desk
+    and press <ACTION> on it to open a drawer, press <ACTION> again to
+    take the key.  Press <ACTION> on the books twice to get a music
+    book. 
+
+    Now go to the library and have a look at the map.  You will notice
+    that there is a secret area behind some of the books, turn around
+    and walk to the nearest books, you should find a book which sticks
+    out from the other books.  Press <ACTION> to pull it back and open
+    the secret door, walk into the secret room and you will find
+    Pavlov.  However, he is not very helpful right now. 
+
+    Go to the double doors and unlock them with the key you got from
+    the nurse, you will be attacked by two mad guards, probably best
+    to use your <FIST> to defeat them. 
+
+    Try the door on your right to find out it is locked.  Press
+    <ACTION> on the window next to it to find out it hasn't been
+    cleaned in a while :), press <FIST> to break the glass and press
+    <ACTION> to enter this room. 
+
+    Gather all the medicines throughout the room and have a look at
+    the charts, also note their colors.  (Reprinted here for your
+    convenience). 
+
+    Patient       Treatment                 Disease
+    Tchecky       Sadocan (yellow pills)    ...iculating Dementia
+    Herman        Quarlax (green pills)     ...ronic Schizophrenia
+    Gunter        Chromal V... (red pills)  Debilita... Euphor...
+    Voslov        Bromal (blue pills)       Chicken Syndrome
+
+    You will notice there are three patients in the room, and four
+    charts on the wall and you now have five different colour pills in
+    your inventory.  So the white pills must be for Pavlov, head to
+    the library to find out.  Pavlov will you give you a key.
+    
+    (now might be a good time to [SAVE] again).
+
+    Go back to the room where you got the pills.  You can give the
+    other patients their pills now to stop them wandering around,
+    there does not seem to be any other use for it though.
+
+    Try the door on the far side of the room to find out it is locked,
+    use the door to the right to enter the garden.  Walk over to the
+    other side of the garden, behind the small building you will find
+    a valve or something in a corner (marked "f" on the map).  Press
+    <ACTION> on it to activate the fountain, a letter will appear in
+    the water, press <ACTION> on it to take it.  <USE> the letter to
+    find out it is probably written with invisible ink.
+
+    UPDATE: Lost Johnny was the first to write me on how to read the 
+    letter:
+
+       "Just <USE> it in front of the fireplace in the first room of
+        the asylum (the room with the save point in it). The heat of
+        the fire will turn the ink visible. Peter's letter reveals 
+        how the angel statues have to be adjusted in order to open 
+        the entrance to the underground corridor which leads to the 
+        exit of Episode 2."
+
+    Go back inside and enter the door to the guard room.  Again use
+    your <FIST> to defeat the mad guard and press <ACTION> on the
+    lever at the end of the room.  This will unlock the door towards
+    the next hallway.  Go back and open that door, to find yourself in
+    a hallway where you can hear a lot of frogs.
+    
+    Enter the last door on the left to find Herman, give him his pills
+    to learn about an old man behind the walls.  (btw, wash your hands
+    if you take a dump on any of these toilets :).
+
+    Enter the last door on the left and you will be attacked by a
+    giant frog creature.  <RUN> to the end of the room and press
+    <ACTION> to grab the pipe, now walk under the giant frog and press
+    <ATTACK>.  Hellboy will drop the pipe after this, so press <ACTION>
+    again to pick it up from the floor.  Repeat until the frog is
+    dead.  You are now the proud owner of a useful pipe.
+
+    Exit this room and enter the second room on the left.  <USE> the pipe
+    on the fan on the back of the room to break it, and press <ACTION>
+    to enter the new hole.
+
+    You will find yourself in a room with four pillars on which
+    statues of angels point towards the end of the room.
+
+    Leave the far left pillar as it is, and press <ACTION> on the far
+    right pillar to point it towards the right.  Press <ACTION> twice
+    on the bottom right pillar and press <ACTION> three times on the
+    bottom left pillar so that all the statues look in a different
+    directions, this should open the door at the top of the room.
+
+    Walk towards the end of the corridor, open the door and keep
+    walking.  At the next door use the key you got from Pavlov to
+    unlock the door and you will find the old man Herman was talking
+    about.  
+    
+======================================================================
+3.3.  Episode Three
+======================================================================
+
+    Exit this room and run through the corridor, try to avoid the
+    hands grabbing you from out the cells.  After a while you should
+    walk up some stairs and find yourself in a torture chamber or
+    something, which does not look too stable.
+
+    The door on the other side is locked, but you can notice a key
+    hanging from one of the chains.  Grab the plate which is on the
+    wall to the right of the axe.  On the left of the axe there is a
+    chain which you can reach, press <ACTION> to pull it.  Now you can
+    use your <FIST> to punch the two broken pillars at the back of the
+    room.  (Punch the left pillar first, while the room is rumbling
+    <RUN> over to the other pillar and punch that).  The roof should
+    cave in after a while, walk over to the left of the room to pick
+    up the key which is now lying on the floor. 
+
+    <USE> the key to unlock the door and press <ACTION> to open it.
+
+    Follow the wall towards the right and enter the door opposite the
+    steps, Hellboy will see the same man who walked out of the torture
+    chamber into a tower.  Walk along and you will find a [SAVE] point
+    in a corner to the right.  Obviously the tower is locked and so is
+    the door opposite from the save point, so go back to the clearing. 
+
+======================================================================
+3.3.1.  E3 - Tower Grounds
+======================================================================
+
+    Walk along the wall to find another door which leads to a library.
+    You will again see the man from the torture chamber enter a door
+    and locking it behind him. Examine the shelves on Hellboy's right
+    just after entering to find another music book. 
+
+    Talk to the monks to learn that there should be a key somewhere
+    for the `forbidden library' and that most of the monks have turned
+    evil.  If you will look carefully you will see a key lying on top
+    of one of the book shelves in the middle of the room. Back up a
+    bit and you will see there is some sort of hole in the roof. Now
+    walk over to the side of the middle book shelf thing, and press
+    <ACTION>, Hellboy will push the shelves so that it is positioned
+    right under the hole in the roof.  When you walk outside you will
+    see a [HEALTH] next to some window on the roof, so there must be
+    some way to get there and get the key too.
+
+    Exit the library and follow the wall towards the right, enter the
+    door with the steps in front of it.  You will find yourself in an
+    area with a few pigs and a chicken.  Talk to the boy sitting next
+    to a door to find out he is hungry.  Walk further along and you
+    will come across a kind of pool, press <ACTION> near it to
+    discover there is something floating in the small pool.  Walk
+    around the fence to the left to find a bag of delicous pig food,
+    throw it in the water to get a box with a key in it. 
+
+    Exit this area and walk to the other side of the clearing, and
+    enter the area with the save point. Unlock the door opposite the
+    save point with the box with a key in it, and try to grab the
+    [HEALTH].  You will fall through the floor and be cooked by a
+    boiler of some kind.  Run towards the right were you will find a
+    bucket, take it with you to the fire and <USE> the bucket on the
+    water coming out of a pipe to the right of the fire.  Grab the
+    [HEALTH] and then press <ACTION> on the pipes to the left of where
+    the fire was to climb over them. Walk along and you will be
+    attacked by a zombie.  Defeat it with your <FIST> and grab the
+    head which is lying on the floor next to a beheaded corpse.
+    Follow the corridor and you will enter a room with two tables and
+    an oven.  Walk to the other side of the room and get some [HEALTH]
+    on the right and a stale bread on a shelf to the left. 
+
+    Exit the room and enter the clearing itself, you will notice a
+    number of pillars.  Press <ACTION> near a pillar to push it, push
+    the three largest pillars around to create a staircase up to the
+    roof, and press <ACTION> near the smallest one to climb them.
+
+    On top of the roof grab the [HEALTH] and press <ACTION> to break
+    the glass and jump through the window.  Walk over to the key and
+    press <ACTION> to take it, walk to the other side and press
+    <ACTION> to jump off.  You can now <USE> the key to unlock the door
+    in the back of the library.  Walk along the corridor and press
+    <ACTION> to talk to the head librarian in the forbidden library,
+    he will not let you in because you are not a monk.  <USE> the head
+    on the door and the head librarian will let you in.  [SAVE].
+
+======================================================================
+3.3.2.  E3 - Library
+======================================================================
+
+    Walk up the stairs and take out the evil monks with your <FIST>,
+    then walk back to the head librarian and talk to him. Swing your
+    <FIST> a few times and the giant monkey will run up to the top of
+    the library.  <USE> health if you need it and walk up to the
+    monkey to defeat it with your <FIST>.  (Try to push the monkey
+    against the wall while punching and it will not punch you that
+    often). 
+
+    Grab the cross on the floor and you probably want to [SAVE]
+    again. 
+
+    Talk to the monks back in the library to learn about the
+    inquisitor.
+    
+    Exit the room and go back to the hungry boy, give him the stale
+    bread.  He does not like it very much, so we should find him some
+    better food.  Grab the chicken by pressing <ACTION> near it and go
+    back to the room with the oven.  <USE> the chicken on the oven. Go
+    back to the boy and <USE> the chicken on him, he will open a
+    trapdoor right where he was sitting.  Press <ACTION> to enter it. 
+
+    You will come across an evil monk, but he is easily defeated with
+    your <FIST>, or you can just ignore him and <RUN> along.  If you
+    walk along you can find some [HEALTH] on the right somewhere, and
+    you will find another evil monk before you walk up the stairs to
+    the church (where you will find some more evil monks).  Walk
+    straight ahead and enter the door to find a [SAVE] point and a
+    coffin. 
+
+    First <USE> the cross on the left side of the coffin, then step
+    into the sun light and <USE> the shiny plate from the torture
+    chamber.  You will assume the mantle of the Rara Avis, which just
+    means you get a nice mystic sword.  [SAVE] before you leave.
+
+======================================================================
+3.3.3.  E3 - Sacristy
+======================================================================
+
+    You will be attacked by the inquisitor, who turns into some kind
+    of worm or dragon.  Avoid touching the spikes and the fire in the
+    middle of the room, and use the sword to <ATTACK> when he's coming
+    out of one of the holes.
+
+    Leave the church through the door you have not been through yet
+    and <RUN> to the door to leave the church grounds (or you can kill
+    the evil monks if you want).  You will be back at the area with
+    the pigs and the boy-who-is-not-hungry-anymore.
+
+    Walk over to the tower grounds and [SAVE].  After saving your
+    game, if you walk a bit further you will be attacked by one of the
+    bizarre statues in front of the tower.  After you kill it you will
+    be attacked by the other statue.
+
+    The best strategy here is to <RUN> towards the small building and
+    then pass between the wall and the tree near there.  The creatures
+    will not be able to follow you, so you can turn around and
+    <ATTACK> them with your sword even though they cannot attack you.
+
+    Enter the tower and grab the [HEALTH] on Hellboy's left.  Walk to
+    the end of the room and press <ACTION> to pull the lever to take
+    an elevator to the next floor.
+
+    Here you will find a puzzle in the form of 7 levers scattered
+    about some strange platforms.  First pull the 2 levers on the
+    ground.  Now walk up the steps and pull the lever on that
+    platform.  This will raise the platform so you can walk down the
+    stairs again and pull the lever on the other platform.  Repeat
+    this once more to rotate the final platform, then go back up the
+    stairs and repeat the process until you are back on the ground
+    near the elevator again.  Pull the two levers on the ground again
+    (in the right order), and walk up the stairs to repeat the process
+    until you reach the final platform. 
+
+    After you pull the lever on the last platform it will take you to
+    the tower roof, where your game will be saved automatically.
+
+======================================================================
+3.3.4.  E3 - Tower Roof
+======================================================================
+
+    Walk up to the monster and <ATTACK> it with your sword.  Just
+    ignore his punches and whatnot and <USE> some health when you have
+    to. 
+
+    After killing the creature Hellboy will catch the amulet and be
+    transported back to the present.
+
+======================================================================
+3.4.  Episode Four
+======================================================================
+
+    Take your gun before you leave the room.  Follow the corridors to
+    the room with the statues.  Carefully walk around the statues so
+    that they cannot see you (they will come to life and attack you
+    with their axe if they do).  Leave the room to go back to the
+    asylum. 
+
+    Back at the asylum you can climb through the window again, and
+    this time grab some red pills and [SAVE].
+
+======================================================================
+3.4.1.  E4 - Asylum Recreation Room
+======================================================================
+
+    Climb out of the window again and walk towards the garden, before
+    going out you will find Herman sitting on a bench.  Press <ACTION>
+    to talk to him, and <USE> the red pills on him after that.  Take
+    the key and go outside.
+
+    If you try to turn the valves you will find out there is no
+    water.  Walk to the gates and press <ACTION> to open them (they
+    were locked in Episode Two).  Walk along and use the key you got
+    from Herman to unlock the door.  Enter, and press <ACTION> to pull
+    the lever next to the desk.  Leave the room and go back to the
+    garden.  The lever you pulled has unlocked the small building, so
+    enter it.
+
+    In the building, you will see three control panels of some kind,
+    and a blood stained table.  On either side of this table is a
+    button, first press the one left of the table, then press the
+    other one.  Walk over to the control panels and press <ACTION>
+    near the left one, Hellboy will read "System Ready".  Then press
+    <ACTION> near the middle panel and Hellboy will be captured by two
+    mad scientists or something.  Walk over to the last panel and
+    press <ACTION> to summon an elevator, enter it.
+
+    Just ignore the switches and whatnot for now, and walk right up
+    to a door.  If you try to open it Hellboy will say the water
+    pressure is too high.  To fix the water supply for the fountain
+    and sprinklers adjust the switches in this room.  Make sure all
+    cylinders are `up'.  Also turn the red valve thing next to the
+    first switch just in case.  Now, find your way back to the garden
+    and open the valves to turn on the fountain and the sprinklers. 
+    
+    Now you will be able to open the door downstairs.  After you enter
+    that door you will find yourself in some kind of pipe, follow it
+    and you will come across a bridge which you cannot lower from this
+    side. 
+
+    Walk along to the right, open the door and walk straight ahead to
+    the next door. Enter it and you will be attacked by a 3 legged
+    monster, just <RUN> around it and [SAVE].
+
+======================================================================
+3.4.2.  E4 - Sewers
+======================================================================
+
+    For the rest of this Episode I will refer to the map below:
+
+                       ___     
+                   ___| __|    S = [SAVE], A = Ammo, # = Door, H = Health
+                  |   MB|      
+                  |_   _|      L = little guy trapped in force field
+                    |c|        X = Just don't jump in here, ok?
+                    | |        W = Wheel you cannot pass
+                    |#|       MB = mother bug
+                    | |____    3 = large 3 legged creatures
+                    \____  \   c = small annoying bug-like creatures       
+                         | |   B = Bridge                           
+                    _____| |_____
+                   |             |
+               ____|  :^^   ^^:  |______      
+              /  __     hole      ____  \       
+              | |  |  :..   ..:  |    | |       
+              | |  |_____   _____|    | |   ________
+              | |________| |_____     | |__|      L |
+              |  ________   ___  \    \____#___   __|
+              | |________| |   | |          ___|#|____
+              \__________  |   | |_        |H  3      |
+                  _______| |   \__A|       |_____ 3 __|
+                 /  _______/                 __  | |
+      ___________| |   ________________     / A| |W|
+     /  ___   ___  |  /  ______   ___  \____| |  | |
+     | |   | |   | |  | |      | |   |  ____  |  |#|
+     | |___| |   | |__| |______| |_  | |    | |  | |
+     \_____  |   \__________   __  \ | |____| |__| |__
+           | |___           | |  |A| |  ____________  \
+           \___  \          | |______| |            | |   
+               |c|          \__________/    |#|     |#|    ____
+               | |  ___                     |B|_____| |___|    |
+               |#|_|H  |                    |  ___#__ __#_  3 S|
+               |_      | <---+              |#|      X    |____|
+                 |     |     |              | |___        
+                 |___S_|     |              \___  \  
+                             |                  | |
+             elevator room --+                  |#|   
+
+    First locate "MB" on the map and go there.  While you are running
+    through the sewers you will be constantly attacked by annoying
+    little bugs, you cannot kill them so just <RUN> along and ignore
+    them.  
+    
+    When you arrive you will see a huge ugly bug-like creature giving
+    birth to the annoying little bugs.  Notice that she raises her
+    head when she spits out a baby.  Walk over to the head and wait
+    for her to raise it.  Use your <FIST> on the baby bugs which swarm
+    around you but always stay pointed at the head so you can <RUN>
+    underneath it once she raises her head.  Press <ACTION> on the old
+    equipment to activate it, which kills the mother bug.
+
+    Now locate the little guy on the map and go to that room.  Walk
+    over to the left switch and press it seven times to line up the
+    holes in the three discs.  You should now have power on the second
+    switch, press it three times to line it up with the bar above it.
+    Now walk back to the first switch and press it seven times to line
+    it up with the second disc and the bar above it.  Walk over to the
+    third switch and press it three times.  The bar should now fall
+    into the holes in the discs and release the little guy. 
+
+    Exit the room through the door you have not been through yet, and
+    grab the [HEALTH] if you think you need it.  Walk towards the
+    spinning weel (marked W on the map), avoid the creatures and
+    press <ACTION> near the opened plate to stop the wheel from
+    spinning.  Pass under it and follow the map to the elevator room.
+
+    (if you have not killed the mother bug the creatures marked "c" on
+    the map will not let you pass and you will not be able to reach
+    the elevator room).
+
+    Press the switch and grab the [HEALTH] before you [SAVE].
+
+======================================================================
+3.4.3.  E4 - Elevator Room
+======================================================================
+
+    Leave the elevator room and walk back to the bridge.  The little
+    guy will crawl out of the vents and lower the bridge for you.
+    Walk over to the other side and open the door.  Now <RUN> along
+    the corridors, and avoid the electric sparks by hiding in the
+    spaces in the walls.
+
+    After a while you should reach the elevator (the elevator switch
+    here does not work, which is why you needed to go to the elevator
+    room to raise the elevator). 
+
+    Walk along and press <ACTION> to pick up the big wrench at the end
+    of the room.  Now go back to the first save point in the sewers
+    (the one with the annoying 3 legged creature in the room), after
+    you have saved leave the room and have a look at the green pipe
+    which is marked "X" on the map.  Press <USE> to throw the wrench
+    in the pipe, after throwing the wrench in it is safe to press
+    <ACTION> a few times to make Hellboy jump into the pipe.
+
+    Open the door ahead (the one on the right is locked) and walk
+    along to find Sara, or is it Kalin?  
+
+    Avoid Kalin's blasts and after he has teleported a few times he
+    should stay where he is long enough to fight him with your
+    <FIST>.  You should not have any trouble killing him this way. 
+    Grab his staff in the middle of the room before leaving the room.
+    (don't forget to press <ATTACK> to try the staff, you will notice
+    it will need a little time to recharge after each blast).
+
+    Hellboy will unlock the door to the right, which is Episode Five.
+    
+======================================================================
+3.5.  Episode Five
+======================================================================
+
+    Run along the corridors and shoot the three legged creatures with
+    the staff, after a while you should be back outside the asylum.
+    Walk over to the other side of the grounds to a gate which was
+    locked earlier.  Open it and shoot any zombies you encounter,
+    continue to a clearing.  Press <ACTION> near the fence to take the
+    sheet music lying there, and turn around to discover a [SAVE]
+    point in a corner.
+
+    UPDATE: MailMaster C. wrote me about this part, there was a bug in
+    his version of the game:
+
+       "I am in the Town of Zombies, I have to find the sheet music
+        paper to pick up the amulet. You say to press ACTION near the
+        fence, but there is no sheet music paper."
+
+    Luckily, there seems to be a workaround:
+
+       "I eventually managed to find the sheet music near the
+        fence. It was invisible, I had to check every millimeter
+        of the fence, and I found it in the corner, near the 
+        wall, on the opposite side of the SAVE POINT."
+
+======================================================================
+3.5.1.  E5 - Town
+======================================================================
+
+    Continue to the next clearing to find some [HEALTH] and another
+    zombie, this one cannot be killed with the staff. So keep hitting
+    him with your <FIST> and he will not have any opportunity to hit
+    back.  Enter the huge door with the crosses on either side after
+    killing the zombie.
+
+    You will now be back in the Underground Passage of Episode Two.
+    Follow it back to the place where you found four stones to put on
+    three pillars, there is a [HEALTH] there now.  However the door
+    there will not open, so get back to the elevator which leads up to
+    the church.  In the church <USE> the sheet music on the organ, and
+    press <ACTION> near the door which just opened to take the
+    amulet.
+
+    Walk to the back of the church and open the door, you will be
+    outside again.  Follow the path and open the wooden doors at the
+    end.  You will be attacked by another demonic creature which looks
+    familiar.  Press <RUN> while walking backwards to avoid being hit
+    by the creature while still being able to shoot at it with the
+    staff.  You should be able to kill it fairly easily using the
+    method described above.
+
+    You can now walk back to the asylum, but it is still locked, so
+    enter the zombie town again.  On one of the trees is a note
+    written by Peter (it might have been there the first time too, I'm
+    not sure), read it by pressing <ACTION> near it and then continue
+    until you reach the Underground Passage again. (you might want to
+    save along the way). 
+
+    Follow the passage and Hellboy will jump into a portal.
+
+======================================================================
+3.6.  Episode Six
+======================================================================
+
+    Judging from the horns which grew back, you are in Hell.  Follow
+    the path to the first talon.  Closely watch the cycle in which it
+    hammers on the ground (it hammers twice, waits a short while,
+    hammers again, waits a bit longer, and then it starts over).
+    <RUN> underneath the talon when it is safe, and <RUN> along to the
+    left.  You will encounter a creature from hell which looks
+    remarkebly similar to the zombies which you have seen before, so
+    use your <FIST> do defeat it.  Select the staff and press <ACTION>
+    to insert it in the pentagram on the floor.  This will paralise
+    the first talon and allow you to move along the path.  Repeat this
+    for the next three talons.  (the cycle for when a talon hammers and
+    when it waits is different for each of them, so watch closely,
+    also watch the smaller tentacles closely and you will be able to
+    <RUN> by them without being harmed).   
+
+    When you have paralised all legs you will be able to reach Sara.
+    Walk over to her to end the game.
+
+    Hope you enjoyed it :)
+
+    -- Kuno Woudt <kuno@frob.nl>
+
+======================================================================
+4. Feedback
+======================================================================
+
+    Several people have emailed me with updates on some of the things
+    which were not clear to me in the first versions of this FAQ.
+
+    These updates have been included in the main walkthrough, and
+    in the "Music Books" section below.  I also recieved an email from
+    one of the developers of the game, which probably answers any 
+    remaining questions, you can find it in the "Developer" section
+    below.
+
+======================================================================
+4.1  Music Books
+======================================================================
+
+    UPDATE: The purpose of the music books is still not entirely
+    clear, but several people have written me with suggestions: 
+
+       Q: What is the purpose of the music books?
+
+    Lost Johnny writes:
+
+       A: Well, I'm not really sure, but I found out that you can
+       <USE> at least the first book with the organ in the church.
+       Hellboy will then play a nice little tune (this won't open the
+       place where the ammo box is hidden, though) ... 
+       definitely not essential for solving the game, I'd say. ;-)
+
+    Martin writes:
+
+       I don't know what the first music book is for, when I used it
+       at the church organ nothing happened. The second one I couldn't
+       use at first, but after I defeated the Inquisitor snake monster
+       I used it at the organ and played some rockin' tune after which
+       a monk came out of the sacristry  and told me to keep quiet!
+
+======================================================================
+4.2  Developer
+======================================================================
+
+    One of the developers of the Hellboy game has written me an email
+    which clears up many things.  I've snipped a few bits out, but 
+    here is most of the email I got from Mr. Strange:
+
+    ...
+
+      I thought I'd give a few insights into exactly what we were
+      thinking about various bits.
+
+    ...
+
+      1.  Difficult fighting - there were some places where we 
+          expected folks to fight, and some places where we expected
+          them to run.  After reading your FAQ, it became clear to me
+          that these distinctions were not clear.  For example, you
+          are NOT supposed to fight the Small Kanis after you exit the
+          church.  I hope you didn't try to fight him more than once 
+          or twice, as that fight is essentially impossible.  On the 
+          other hand, you did not mention the quick way to defeat the
+          Giant Kanis at the top of the tower, which is to hit him and
+          then run around to his back and strike the large hump there.
+          Perhaps you used that strategy and simply did not write it 
+          up?  If you fought him the hard way, you did quite a bit of
+          extra work.
+
+      2.  The man you see who always runs through locked doors in the
+          old monestary, and who eventually turns into the giant 
+          snake-demon is the Inquisitor.  That didn't seem to be clear
+          in your FAQ, and to be fair it wasn't all that clear in the
+          game.
+    
+      3.  That object you use to reflect the light beam is supposed
+          to be a shiny shield, not a plate.
+
+      4.  You didn't mention using the music books at either of the 
+          organs.  Those music books were slipped in the game by a
+          rogue designer, so I don't reccommend actually enjoying 
+          whatever happens.  I cencored the original dialogue, which
+          was even worse.
+
+      5.  I was pleased that you figured out the "Get the Small Kanis
+          trapped between the tree and the wall" trick.  We used that
+          all the time.
+
+      6.  Fun fact, you need not pick up your gun at the start of
+          episode 4.  If you do not, the ending battle of that episode
+          is slightly different.
+
+      7.  Going backwards, those four stones - that was my puzzle, and
+          it has to do with the relative mass of those shapes.  The 
+          goal is to get all three pillars to the same height.  I'm 
+          sorry if that didn't work for you.
+
+      8.  When you return to the asylum, and enter the small office to
+          unlock the bunker, there are papers which indicate that
+          Kalin has been running the asylum in the present day.  That
+          was important to me.
+
+      9.  If you have your gun, you can kill the little bugs quite 
+          easily in the sewers.  Of course, more just come, so it's
+          probably not worthwhile.
+
+      10. Since you encourage folks to save before throwing the pipe
+          into the gears, why not encourage them to try jumping in 
+          before they throw?
+
+      11. I'm glad you picked up on the significance of Hellboy's 
+          horns growing back.
+
+      12. I've made it to the end, and it seems that some folks
+          figured out the music books after all.  I'm sorry for them.
+
+    ...
+
+======================================================================
+5.  Cheats
+======================================================================
+
+    Because I am playing this game for the story - and not the
+    gameplay - I have decided to cheat.  Normally I do not enjoy
+    cheating in a computer game, but in this case I feel it is a
+    neccesary evil :) 
+
+    Now that I have finished the game, I can conclude that most fights
+    are not at all difficult.  So you might want to try the game
+    without cheating - then again, having lots of health can be quite
+    comforting :)
+
+    Luckily the savegames are tiny, and it has not been difficult to
+    find out where health and ammo are stored.  However these
+    locations change with each episode, so i have a made a few batch
+    files for save points where you probably need it most. 
+
+    For each of the next sections copy the text of the section
+    verbatim to a dos batch file (copy & paste it in notepad, then
+    choose save as..., find the hellboy save game directory and save
+    it as `hell_e2.bat' or `hell_e4.bat', etc... ). 
+
+    Then open a dos box and `cd' into your savegame directory and
+    execute the appropriate batch file.  This should patch your last
+    savegame.  You can also supply a filename on the command line.
+    
+    WARNING: this might damage your savegame if you have a different
+    version of the hellboy game, it will certainly damage your
+    savegame if you use it on a savegame for a different episode.
+    So make sure you make a backup first. 
+
+    WARNING: the autosaves are special, find a proper [SAVE] point
+    before attempting to cheat.  
+
+======================================================================
+5.1.  hell_e2.bat
+======================================================================
+@echo off
+
+: Ammo + Health trainer for Episode One and Two of Hellboy.
+
+if %1_==_ goto default
+set FILE=%1
+goto skip
+
+:default
+for %%i in (save*.hbs) do set FILE=%%i
+
+:skip
+echo e 4ca > cheat.deb
+echo 00 44 >> cheat.deb
+echo e 554 >> cheat.deb
+echo 63    >> cheat.deb
+echo w     >> cheat.deb
+echo q     >> cheat.deb
+
+echo patching %FILE% ...
+debug %FILE% < cheat.deb > nul
+echo done.
+
+======================================================================
+5.2.  hell_e4.bat
+======================================================================
+@echo off
+
+: Use this batch file ONLY for Hellboy savegames at E4 - Sewer.
+
+if %1_==_ goto default
+set FILE=%1
+goto skip
+
+:default
+for %%i in (save*.hbs) do set FILE=%%i
+
+:skip
+echo e 4ba > cheat.deb
+echo 00 44 >> cheat.deb
+echo e 504 >> cheat.deb
+echo 63    >> cheat.deb
+echo w     >> cheat.deb
+echo q     >> cheat.deb
+
+echo patching %FILE% ...
+debug %FILE% < cheat.deb > nul
+echo done.
+
+======================================================================
+6.  GNU Free Documentation License
+======================================================================
+
+		GNU Free Documentation License
+		   Version 1.1, March 2000
+
+ Copyright (C) 2000  Free Software Foundation, Inc.
+     59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+
+0. PREAMBLE
+
+The purpose of this License is to make a manual, textbook, or other
+written document "free" in the sense of freedom: to assure everyone
+the effective freedom to copy and redistribute it, with or without
+modifying it, either commercially or noncommercially.  Secondarily,
+this License preserves for the author and publisher a way to get
+credit for their work, while not being considered responsible for
+modifications made by others.
+
+This License is a kind of "copyleft", which means that derivative
+works of the document must themselves be free in the same sense.  It
+complements the GNU General Public License, which is a copyleft
+license designed for free software.
+
+We have designed this License in order to use it for manuals for free
+software, because free software needs free documentation: a free
+program should come with manuals providing the same freedoms that the
+software does.  But this License is not limited to software manuals;
+it can be used for any textual work, regardless of subject matter or
+whether it is published as a printed book.  We recommend this License
+principally for works whose purpose is instruction or reference.
+
+
+1. APPLICABILITY AND DEFINITIONS
+
+This License applies to any manual or other work that contains a
+notice placed by the copyright holder saying it can be distributed
+under the terms of this License.  The "Document", below, refers to any
+such manual or work.  Any member of the public is a licensee, and is
+addressed as "you".
+
+A "Modified Version" of the Document means any work containing the
+Document or a portion of it, either copied verbatim, or with
+modifications and/or translated into another language.
+
+A "Secondary Section" is a named appendix or a front-matter section of
+the Document that deals exclusively with the relationship of the
+publishers or authors of the Document to the Document's overall subject
+(or to related matters) and contains nothing that could fall directly
+within that overall subject.  (For example, if the Document is in part a
+textbook of mathematics, a Secondary Section may not explain any
+mathematics.)  The relationship could be a matter of historical
+connection with the subject or with related matters, or of legal,
+commercial, philosophical, ethical or political position regarding
+them.
+
+The "Invariant Sections" are certain Secondary Sections whose titles
+are designated, as being those of Invariant Sections, in the notice
+that says that the Document is released under this License.
+
+The "Cover Texts" are certain short passages of text that are listed,
+as Front-Cover Texts or Back-Cover Texts, in the notice that says that
+the Document is released under this License.
+
+A "Transparent" copy of the Document means a machine-readable copy,
+represented in a format whose specification is available to the
+general public, whose contents can be viewed and edited directly and
+straightforwardly with generic text editors or (for images composed of
+pixels) generic paint programs or (for drawings) some widely available
+drawing editor, and that is suitable for input to text formatters or
+for automatic translation to a variety of formats suitable for input
+to text formatters.  A copy made in an otherwise Transparent file
+format whose markup has been designed to thwart or discourage
+subsequent modification by readers is not Transparent.  A copy that is
+not "Transparent" is called "Opaque".
+
+Examples of suitable formats for Transparent copies include plain
+ASCII without markup, Texinfo input format, LaTeX input format, SGML
+or XML using a publicly available DTD, and standard-conforming simple
+HTML designed for human modification.  Opaque formats include
+PostScript, PDF, proprietary formats that can be read and edited only
+by proprietary word processors, SGML or XML for which the DTD and/or
+processing tools are not generally available, and the
+machine-generated HTML produced by some word processors for output
+purposes only.
+
+The "Title Page" means, for a printed book, the title page itself,
+plus such following pages as are needed to hold, legibly, the material
+this License requires to appear in the title page.  For works in
+formats which do not have any title page as such, "Title Page" means
+the text near the most prominent appearance of the work's title,
+preceding the beginning of the body of the text.
+
+
+2. VERBATIM COPYING
+
+You may copy and distribute the Document in any medium, either
+commercially or noncommercially, provided that this License, the
+copyright notices, and the license notice saying this License applies
+to the Document are reproduced in all copies, and that you add no other
+conditions whatsoever to those of this License.  You may not use
+technical measures to obstruct or control the reading or further
+copying of the copies you make or distribute.  However, you may accept
+compensation in exchange for copies.  If you distribute a large enough
+number of copies you must also follow the conditions in section 3.
+
+You may also lend copies, under the same conditions stated above, and
+you may publicly display copies.
+
+
+3. COPYING IN QUANTITY
+
+If you publish printed copies of the Document numbering more than 100,
+and the Document's license notice requires Cover Texts, you must enclose
+the copies in covers that carry, clearly and legibly, all these Cover
+Texts: Front-Cover Texts on the front cover, and Back-Cover Texts on
+the back cover.  Both covers must also clearly and legibly identify
+you as the publisher of these copies.  The front cover must present
+the full title with all words of the title equally prominent and
+visible.  You may add other material on the covers in addition.
+Copying with changes limited to the covers, as long as they preserve
+the title of the Document and satisfy these conditions, can be treated
+as verbatim copying in other respects.
+
+If the required texts for either cover are too voluminous to fit
+legibly, you should put the first ones listed (as many as fit
+reasonably) on the actual cover, and continue the rest onto adjacent
+pages.
+
+If you publish or distribute Opaque copies of the Document numbering
+more than 100, you must either include a machine-readable Transparent
+copy along with each Opaque copy, or state in or with each Opaque copy
+a publicly-accessible computer-network location containing a complete
+Transparent copy of the Document, free of added material, which the
+general network-using public has access to download anonymously at no
+charge using public-standard network protocols.  If you use the latter
+option, you must take reasonably prudent steps, when you begin
+distribution of Opaque copies in quantity, to ensure that this
+Transparent copy will remain thus accessible at the stated location
+until at least one year after the last time you distribute an Opaque
+copy (directly or through your agents or retailers) of that edition to
+the public.
+
+It is requested, but not required, that you contact the authors of the
+Document well before redistributing any large number of copies, to give
+them a chance to provide you with an updated version of the Document.
+
+
+4. MODIFICATIONS
+
+You may copy and distribute a Modified Version of the Document under
+the conditions of sections 2 and 3 above, provided that you release
+the Modified Version under precisely this License, with the Modified
+Version filling the role of the Document, thus licensing distribution
+and modification of the Modified Version to whoever possesses a copy
+of it.  In addition, you must do these things in the Modified Version:
+
+A. Use in the Title Page (and on the covers, if any) a title distinct
+   from that of the Document, and from those of previous versions
+   (which should, if there were any, be listed in the History section
+   of the Document).  You may use the same title as a previous version
+   if the original publisher of that version gives permission.
+B. List on the Title Page, as authors, one or more persons or entities
+   responsible for authorship of the modifications in the Modified
+   Version, together with at least five of the principal authors of the
+   Document (all of its principal authors, if it has less than five).
+C. State on the Title page the name of the publisher of the
+   Modified Version, as the publisher.
+D. Preserve all the copyright notices of the Document.
+E. Add an appropriate copyright notice for your modifications
+   adjacent to the other copyright notices.
+F. Include, immediately after the copyright notices, a license notice
+   giving the public permission to use the Modified Version under the
+   terms of this License, in the form shown in the Addendum below.
+G. Preserve in that license notice the full lists of Invariant Sections
+   and required Cover Texts given in the Document's license notice.
+H. Include an unaltered copy of this License.
+I. Preserve the section entitled "History", and its title, and add to
+   it an item stating at least the title, year, new authors, and
+   publisher of the Modified Version as given on the Title Page.  If
+   there is no section entitled "History" in the Document, create one
+   stating the title, year, authors, and publisher of the Document as
+   given on its Title Page, then add an item describing the Modified
+   Version as stated in the previous sentence.
+J. Preserve the network location, if any, given in the Document for
+   public access to a Transparent copy of the Document, and likewise
+   the network locations given in the Document for previous versions
+   it was based on.  These may be placed in the "History" section.
+   You may omit a network location for a work that was published at
+   least four years before the Document itself, or if the original
+   publisher of the version it refers to gives permission.
+K. In any section entitled "Acknowledgements" or "Dedications",
+   preserve the section's title, and preserve in the section all the
+   substance and tone of each of the contributor acknowledgements
+   and/or dedications given therein.
+L. Preserve all the Invariant Sections of the Document,
+   unaltered in their text and in their titles.  Section numbers
+   or the equivalent are not considered part of the section titles.
+M. Delete any section entitled "Endorsements".  Such a section
+   may not be included in the Modified Version.
+N. Do not retitle any existing section as "Endorsements"
+   or to conflict in title with any Invariant Section.
+
+If the Modified Version includes new front-matter sections or
+appendices that qualify as Secondary Sections and contain no material
+copied from the Document, you may at your option designate some or all
+of these sections as invariant.  To do this, add their titles to the
+list of Invariant Sections in the Modified Version's license notice.
+These titles must be distinct from any other section titles.
+
+You may add a section entitled "Endorsements", provided it contains
+nothing but endorsements of your Modified Version by various
+parties--for example, statements of peer review or that the text has
+been approved by an organization as the authoritative definition of a
+standard.
+
+You may add a passage of up to five words as a Front-Cover Text, and a
+passage of up to 25 words as a Back-Cover Text, to the end of the list
+of Cover Texts in the Modified Version.  Only one passage of
+Front-Cover Text and one of Back-Cover Text may be added by (or
+through arrangements made by) any one entity.  If the Document already
+includes a cover text for the same cover, previously added by you or
+by arrangement made by the same entity you are acting on behalf of,
+you may not add another; but you may replace the old one, on explicit
+permission from the previous publisher that added the old one.
+
+The author(s) and publisher(s) of the Document do not by this License
+give permission to use their names for publicity for or to assert or
+imply endorsement of any Modified Version.
+
+
+5. COMBINING DOCUMENTS
+
+You may combine the Document with other documents released under this
+License, under the terms defined in section 4 above for modified
+versions, provided that you include in the combination all of the
+Invariant Sections of all of the original documents, unmodified, and
+list them all as Invariant Sections of your combined work in its
+license notice.
+
+The combined work need only contain one copy of this License, and
+multiple identical Invariant Sections may be replaced with a single
+copy.  If there are multiple Invariant Sections with the same name but
+different contents, make the title of each such section unique by
+adding at the end of it, in parentheses, the name of the original
+author or publisher of that section if known, or else a unique number.
+Make the same adjustment to the section titles in the list of
+Invariant Sections in the license notice of the combined work.
+
+In the combination, you must combine any sections entitled "History"
+in the various original documents, forming one section entitled
+"History"; likewise combine any sections entitled "Acknowledgements",
+and any sections entitled "Dedications".  You must delete all sections
+entitled "Endorsements."
+
+
+6. COLLECTIONS OF DOCUMENTS
+
+You may make a collection consisting of the Document and other documents
+released under this License, and replace the individual copies of this
+License in the various documents with a single copy that is included in
+the collection, provided that you follow the rules of this License for
+verbatim copying of each of the documents in all other respects.
+
+You may extract a single document from such a collection, and distribute
+it individually under this License, provided you insert a copy of this
+License into the extracted document, and follow this License in all
+other respects regarding verbatim copying of that document.
+
+
+
+7. AGGREGATION WITH INDEPENDENT WORKS
+
+A compilation of the Document or its derivatives with other separate
+and independent documents or works, in or on a volume of a storage or
+distribution medium, does not as a whole count as a Modified Version
+of the Document, provided no compilation copyright is claimed for the
+compilation.  Such a compilation is called an "aggregate", and this
+License does not apply to the other self-contained works thus compiled
+with the Document, on account of their being thus compiled, if they
+are not themselves derivative works of the Document.
+
+If the Cover Text requirement of section 3 is applicable to these
+copies of the Document, then if the Document is less than one quarter
+of the entire aggregate, the Document's Cover Texts may be placed on
+covers that surround only the Document within the aggregate.
+Otherwise they must appear on covers around the whole aggregate.
+
+
+8. TRANSLATION
+
+Translation is considered a kind of modification, so you may
+distribute translations of the Document under the terms of section 4.
+Replacing Invariant Sections with translations requires special
+permission from their copyright holders, but you may include
+translations of some or all Invariant Sections in addition to the
+original versions of these Invariant Sections.  You may include a
+translation of this License provided that you also include the
+original English version of this License.  In case of a disagreement
+between the translation and the original English version of this
+License, the original English version will prevail.
+
+
+9. TERMINATION
+
+You may not copy, modify, sublicense, or distribute the Document except
+as expressly provided for under this License.  Any other attempt to
+copy, modify, sublicense or distribute the Document is void, and will
+automatically terminate your rights under this License.  However,
+parties who have received copies, or rights, from you under this
+License will not have their licenses terminated so long as such
+parties remain in full compliance.
+
+
+10. FUTURE REVISIONS OF THIS LICENSE
+
+The Free Software Foundation may publish new, revised versions
+of the GNU Free Documentation License from time to time.  Such new
+versions will be similar in spirit to the present version, but may
+differ in detail to address new problems or concerns. See
+http:///www.gnu.org/copyleft/.
+
+Each version of the License is given a distinguishing version number.
+If the Document specifies that a particular numbered version of this
+License "or any later version" applies to it, you have the option of
+following the terms and conditions either of that specified version or
+of any later version that has been published (not as a draft) by the
+Free Software Foundation.  If the Document does not specify a version
+number of this License, you may choose any version ever published (not
+as a draft) by the Free Software Foundation.
+
+
+ADDENDUM: How to use this License for your documents
+
+To use this License in a document you have written, include a copy of
+the License in the document and put the following copyright and
+license notices just after the title page:
+
+      Copyright (c)  YEAR  YOUR NAME.
+      Permission is granted to copy, distribute and/or modify this document
+      under the terms of the GNU Free Documentation License, Version 1.1
+      or any later version published by the Free Software Foundation;
+      with the Invariant Sections being LIST THEIR TITLES, with the
+      Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST.
+      A copy of the license is included in the section entitled "GNU
+      Free Documentation License".
+
+If you have no Invariant Sections, write "with no Invariant Sections"
+instead of saying which ones are invariant.  If you have no
+Front-Cover Texts, write "no Front-Cover Texts" instead of
+"Front-Cover Texts being LIST"; likewise for Back-Cover Texts.
+
+If your document contains nontrivial examples of program code, we
+recommend releasing these examples in parallel under your choice of
+free software license, such as the GNU General Public License,
+to permit their use in free software.
+
+======================================================================
+7. EOF
+======================================================================
