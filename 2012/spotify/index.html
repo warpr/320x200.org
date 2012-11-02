@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Spotify coverage results</title>
+    <link rel="stylesheet" type="text/css" href="jqplot/jquery.jqplot.css" />
+    <script src="jqplot/jquery.js"></script>
+    <script src="jqplot/jquery.jqplot.js"></script>
+    <script src="jqplot/plugins/jqplot.pieRenderer.js"></script>
+    <script>
+      $(document).ready (function (){
+        var data = [
+          ['Not found in MusicBrainz', 16],
+          ['Not found in Spotify', 1486],
+          ['Low confidence match in Spotify', 173],
+          ['High confidence match in Spotify', 699],
+        ];
+
+        var pie = jQuery.jqplot ('pie', [data],
+          {
+            seriesColors: [ "#888888", "#ff4444", "#ffaa44", "#44ff44" ],
+            seriesDefaults: {
+              renderer: jQuery.jqplot.PieRenderer,
+              rendererOptions: {
+                showDataLabels: true,
+                sliceMargin: 0,
+              }
+            },
+            legend: { show: true, location: 'e' },
+            grid: { borderWidth: 0.0, shadow: false }
+          });
+      });
+    </script>
+    <style type="text/css">
+      html, body, a, div, ul, li, h1, h2 {
+        margin: 0; padding: 0; border: 0; outline: 0; font-size: 13px;
+        vertical-align: baseline; background: transparent; color: #444;
+        text-decoration: none; font-weight: normal;
+      }
+
+      * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+      }
+
+      body { background-color: #fff; }
+      body { font-family: "DejaVu Sans", Verdana, Helvetica, sans-serif; }
+      #content { padding: 2em; width: 48em; }
+
+      h1 { font-size: 24px; }
+      h1 small { color: #888; font-size: 13px; }
+      ul { margin-left: 1em; }
+      li { margin-left: 1em; }
+      a { color: #448 }
+      a:visited { color: #848 }
+      p.signature { text-align: right; }
+    </style>
+  </head>
+  <body>
+    <div id="content">
+    <h1>Spotify coverage<small>(of my music collection)</small></h1>
+    <div id="pie">
+    </div>
+    <p>I cobbled together <a href="https://gitorious.org/is-in-spotify">a few scripts</a> last night which:</p>
+    <ul>
+      <li>Create a list of all release <a href="http://wiki.musicbrainz.org/MBID">MBID</a>s in my local music collection.</li>
+      <li>For each MBID:
+        <ul>
+          <li>Get the tracklist, album title and album artist from the musicbrainz API.</li>
+          <li>Perform an album lookup using the spotify API with a query which consists of <i>album artist name + album title</i>.</li>
+          <li>Get the tracklist from the spotify API for each matching album.</li>
+          <li>Compare the musicbrainz tracklist with each of the spotify results and assign a confidence rating.</li>
+        </ul>
+      </li>
+      <li>Import the data into a SQL database</li>
+    </ul>
+    <p>
+      One obvious problem with this approach is that a text search
+      will not always find a match, even if we know it exists.  For
+      example, spotify does not
+      have <a href="http://musicbrainz.org/release/353710ec-1509-4df9-8ce2-9bd5011e3b80/">El
+      dueño del sistema</a>. Though they do have an album by that name
+      (<a href="spotify:album:70yMNdgyIj9SrQXFmdJKx9">El Dueño Del
+      Sistema</a>), but that is in MusicBrainz
+      as <a href="http://musicbrainz.org/release/ebe634e6-5010-4c2e-9a7e-a30e84eea8f2/">El
+      dueño del sistema: Special Edition</a>.
+      So, this should have been 1 match.
+    </p>
+    <p class="signature">
+      --<a href="https://frob.nl">w</a><a href="https://320x200.org">a</a><a href="http://relatedmusic.org">r</a><a href="https://micro.frob.nl">p</a>
+    </p>
+    <h1>Data</h1>
+    <pre>
+mysql> SELECT count(mbid),confidence FROM results
+    -> GROUP BY CASE
+    -> WHEN confidence IS NULL then 0
+    -> WHEN confidence BETWEEN -1 AND -1 THEN 1
+    -> WHEN confidence BETWEEN 0 AND 50 THEN 2
+    -> WHEN confidence BETWEEN 50 AND 100 THEN 3
+    -> END;
++-------------+------------+
+| count(mbid) | confidence |
++-------------+------------+
+|          16 |       NULL |
+|        1486 |         -1 |
+|         173 |          0 |
+|         699 |         92 |
++-------------+------------+
+4 rows in set (0.01 sec)
+
+mysql> SELECT count(mbid) FROM results;
++-------------+
+| count(mbid) |
++-------------+
+|        2374 |
++-------------+
+1 row in set (0.01 sec)
+
+    </pre>
+    </div>
+  </body>
+</html>
