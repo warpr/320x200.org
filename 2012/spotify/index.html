@@ -68,8 +68,12 @@
       <li>For each MBID:
         <ul>
           <li>Get the tracklist, album title and album artist from the musicbrainz API.</li>
-          <li>Perform an album lookup using the spotify API with a query which consists of <i>album artist name + album title</i>.</li>
-          <li>Get the tracklist from the spotify API for each matching album.</li>
+          <li>
+            Perform an album lookup using
+            the <a href="https://developer.spotify.com/technologies/web-api/search/">spotify
+            API</a> with a query which consists of <i>album artist name + album title</i>.
+          </li>
+          <li>Get the tracklist from the <a href="https://developer.spotify.com/technologies/web-api/lookup/">spotify API</a> for each matching album.</li>
           <li>Compare the musicbrainz tracklist with each of the spotify results and assign a confidence rating.</li>
         </ul>
       </li>
