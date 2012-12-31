@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <title>2012 ➫</title>
+    <style>
+      html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote,
+      pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+      img, ins, q, samp, small, strike, strong, sub, sup, tt, var, dl,
+      dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+      caption, tbody, tfoot, thead, tr, th, td {
+          margin: 0; padding: 0; border: 0; outline: 0;
+          text-decoration: none; vertical-align: baseline;
+          background: transparent; color: black;
+      }
+      ol, ul { list-style: none; }
+      blockquote, q { quotes: none; }
+      blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+      table { border-collapse: collapse; border-spacing: 0; }
+      ins { text-decoration: none; }
+      del { text-decoration: line-through; }
+
+      html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+      /* layout */
+      body { width: 3328px; }
+      div.entry { float: left; width: 256px; }
+      div.vr { float: left; margin: 32px 0; padding: 224px 0; color: #888; }
+      div.icon { float: left; }
+      p { padding: 1em; line-height: 1.5; }
+      p.data { height: 7em; }
+      img.cover { width: 256px; height: 256px; }
+      span.releasedate, a.artist, a.release { font-weight: bolder; }
+      a.action img { float: right; vertical-align: baseline; }
+      div.fakeimg { width: 256px; height: 256px; text-align: center; padding: 0 0 5px 0; }
+
+      /* typography */
+      body, p {
+          font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+      }
+      p.text {  }
+
+      /* colours */
+      body, p.text { background: #111; }
+      div.entry, p.data { background: #181818; }
+
+      p.data { color: #444; }
+      p.text { color: #888; }
+      p.text a { color: #666; }
+
+      p.data span { color: #0f0; }
+      p.data a { color: #f0f; }
+    </style>
+  </head>
+  <body>
+
+    <div class="entry">
+      <div class="fakeimg">
+        &nbsp;<br />
+        &nbsp;<br />
+        <span id="right" style="font-size: 120px; color: #f0f;">➫</span><br/>
+        <script>
+          var pos = 0;
+          var cycle = [ "#0f0", "#f0f" ];
+          setInterval (function () {
+              if (cycle.length <= ++pos)
+                 pos = 0;
+
+              $('#right').css ("color", cycle[pos]);
+          }, 1000);
+        </script>
+      </div>
+      <p class="data">
+        <span class="releasedate">2012-12-31</span><br />
+        <a class="artist" href="https://frob.nl/#me">warp</a>
+      </p>
+      <p class="text">
+        Yes, it's december already.  Time for pointless "Best of 2012"
+        lists of video games, music, and more such nonsense.  Here is a
+        list of albums I particularly enjoyed in 2012, ordered by
+        release date (though I include a couple of albums released
+        before 2012 which I discovered this year).
+      </p>
+    </div>
+
+    <div class="entry">
+      <img class="cover" src="microphone-colossus-2.jpg" />
+      <p class="data">
+        <span class="releasedate">2012-01-06</span><br />
+        <a class="artist" href="http://musicbrainz.org/artist/c4df3685-d86b-41e6-83c3-5ae3c930157a">Kubus</a> &
+        <a class="artist" href="http://musicbrainz.org/artist/932949ff-7a6f-47a6-abae-c1f195b85fa7">Sticks</a><br />
+        <a class="release" href="http://musicbrainz.org/release/5bb93b93-8a38-4bdf-ab83-e8bf17eb92a4/">Microphone Colossus 2</a><br />
+      </p>
+
+      <p class="text">
+        A free downloadable album only 24 minutes long?  That sounds
+        like a quick side project, and yet it turned out to be the most
+        interesting release out of the dutch hiphop scene this year.
+        Sticks clearly feels at home on Kubus' electronic beats, which
+        makes this a joy to listen to.
+        <a class="action" href="http://www.puna.nl/2012/01/06/album-kubus-sticks-microphone-collossus-2/"><img src="favicons/download.png" alt="download" /></a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <img class="cover" src="la-bala.jpg" />
+      <p class="data">
+        <span class="releasedate">2012-01-24</span><br />
+        <a class="artist" href="https://musicbrainz.org/artist/3ac6b6fc-05e9-456f-a7d8-6ddf69756d3f">Ana Tijoux</a><br />
+        <a class="release" href="https://musicbrainz.org/release/82980d05-c543-4c2b-b93a-1f4e3e9276b6">La Bala</a><br />
+      </p>
+
+      <p class="text">
+        While looking for resources to learn spanish I came across Ana
+        Tijoux, who released "La Bala" this year. Parts of La Bala do
+        not sound like hip hop at all, a large chunk of the album is
+        sounds very calm and relaxed.  It suits Ana's voice, but I think
+        I prefer the proper hip hop beats of her previous solo album,
+        1977.  One song on La Bala stands out, "Shock" is very powerful,
+        especially if you see the accompanying video.
+        <a class="action" href="http://youtu.be/177-s44MSVQ"><img src="favicons/youtube.png" alt="Shock (youtube)" /></a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <img class="cover" src="de-avonduren.jpg" />
+      <p class="data">
+        <span class="releasedate">2012-01-27</span><br />
+        <a class="artist" href="https://musicbrainz.org/artist/4318ca24-8492-4311-a30c-1e72166b9552">Kapabel</a><br />
+        <a class="release" href="https://musicbrainz.org/release/8452d83e-d223-4d0c-a5f5-a7d072c75707">De Avonduren</a><br />
+      </p>
+
+      <p class="text">
+        A dutch "hiphop" album with stories and fairy tales told through
+        rap and spoken word.  The accompanying music sounds more like
+        jazz and funk than hiphop beats.  A beautiful album, but listen
+        to it as you would an audio book.
+        <a class="action" href="http://youtu.be/3Y1YFWUFHbU"><img src="favicons/youtube.png" alt="Sjakie Schildpad en de Kreupele Haas (youtube)" /></a>
+      </p>
+    </div>
+
+
+    <div class="entry">
+      <img class="cover" src="otro-nivel-de-musica.jpg" />
+      <p class="data">
+        <span class="releasedate">2012-05-01</span><br />
+        <a class="artist" href="https://musicbrainz.org/artist/75b8a771-52a3-49a0-b2b6-993ed1250dfa">J Alvarez</a><br />
+        <a class="release" href="https://musicbrainz.org/release/ced51ef0-e1d3-4f2e-b82a-78746ece90e5">Otro nivel de música reloaded</a><br />
+      </p>
+
+      <p class="text">
+        2012 is the year that I discovered reggaeton.  It rivals
+        eurobeat for being the worst genre ever.  But, uptempo
+        repetitive music is great background music for programming.  My
+        favourite artist is J Alvarez, four albums so far which
+        all sound exactly the same &mdash; good stuff.
+        <a class="action" href="http://youtu.be/sz1x6ppl4pY"><img src="favicons/youtube.png" alt="La Pregunta (youtube)" /></a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <img class="cover" src="ufabulum.jpg" />
+      <p class="data">
+        <span class="releasedate">2012-05-14</span><br />
+        <a class="artist" href="http://musicbrainz.org/artist/4d86ad4e-28d8-4e9f-8cf4-735c57060fdc">Squarepusher</a><br />
+        <a class="release" href="http://musicbrainz.org/release/6a9c7e2f-a660-440e-8c75-a91e30f740ed/">Ufabulum</a><br />
+      </p>
+
+      <p class="text">
+        This is a great album, but I haven't listened to it as much as I
+        expected.  This kind of electronica isn't suitable anymore as
+        background music when working, I guess it needs a bit more focus
+        to appreciate it.  Overall Ufabulum sounds like familiar,
+        fast-paced Squarepusher stuff, though some of the sounds do
+        remind me of his Shobaleader One album.
+        <a class="action" href="http://youtu.be/XvLAKrVbCBM"><img src="favicons/youtube.png" alt="Dark Steering (youtube)" /></a>
+      </p>
+    </div>
+
+
+    <div class="entry">
+      <img class="cover" src="chiptunes-win.jpg" />
+      <p class="data">
+        <span class="releasedate">2012-06-05</span><br />
+        <a class="release" href="http://musicbrainz.org/release/871f12ec-6259-4e93-b440-9108559c38b1">Chiptunes = WIN \m|♥|m/</a><br />
+      </p>
+
+      <p class="text">
+        One of two massive compilations I listened to this year.  A few
+        tracks just are not chiptunes, but in general this is a great
+        collection of tracks &mdash; but can you survive three hours of
+        chiptunes in one sitting? :)
+        <a class="action" href="http://chiptuneswin.com/album/chiptunes-win-m-m"><img src="favicons/download.png" alt="download (bandcamp)" /></a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <img class="cover" src="electronic-explorations.jpg" />
+      <p class="data">
+        <span class="releasedate">2012-07-01</span><br />
+        <a class="release" href="http://musicbrainz.org/release/0461387b-a46e-4fde-8aa1-b887dc77b40f">EE Compilation</a><br />
+      </p>
+
+      <p class="text">
+        I generally listen to an album from start to finish, but that is
+        a challenge with this compilation as it is almost 6 hours long!
+        I'm not sure if I've ever made it to the end, I feel sorry for
+        the artists who ended up at the end of this release, I may never
+        get to their tracks. If you've never heard of electronic
+        explorations, check out the podcast
+        at <a href="http://electronicexplorations.org/">electronicexplorations.org</a>.
+        <a class="action" href="http://electronicexplorations.bandcamp.com/"><img src="favicons/download.png" alt="download (bandcamp)" /></a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <img class="cover" src="love-the-world.jpg" />
+      <p class="data">
+        <span class="releasedate">2012-09-12</span><br />
+        <a class="release" href="http://musicbrainz.org/release/dd4ef9ed-afae-41b6-bbc2-eb020b5836b0/">Perfume Global Compilation “LOVE THE WORLD”</a><br />
+      </p>
+
+      <p class="text">
+        I love "FAKE IT", when I first listened to it it just seemed to
+        drone on endlessly with barely any change to the rythm and pitch
+        of the vocals.  Perfume provides a refreshingly electronic flavour
+        which I have not heard in other j-pop.
+        <a class="action" href="http://youtu.be/VZKMaFR2mtU"><img src="favicons/youtube.png" alt="FAKE IT (youtube)" /></a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <img class="cover" src="ff8-chips.jpg" />
+      <p class="data">
+        <span class="releasedate">2012-09-19</span><br />
+        <a class="release" href="http://musicbrainz.org/release/d0d4f675-339b-4138-8f99-f81578ce88ab/">Final Fantasy VIII Chips</a><br />
+      </p>
+
+      <p class="text">
+        As part of the Final Fantasy 25th Anniversary celebrations
+        Square Enix has released five albums with chiptune remakes of
+        tracks from the Final Fantasy games.  Out of the five (VII,
+        VIII, IX, X, XI) albums my favourite is probably VIII.
+        <a class="action" href="http://youtu.be/hIE0DrUhbVM"><img src="favicons/youtube.png" alt="Final Fantasy VIII Chips promo (youtube)" /></a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <img class="cover" src="war-of-the-worlds.jpg" />
+      <p class="data">
+        <span class="releasedate">2009-10-22</span><br />
+        <a class="artist" href="http://musicbrainz.org/artist/d5882b8e-0cb4-4c68-9bbc-d718a86b027e">erwtenpeller</a><br />
+        <a class="release" href="http://musicbrainz.org/release/a407dd59-a41f-42b7-9b60-48e4387dd018/">War&nbsp;of&nbsp;the&nbsp;Worlds (a&nbsp;dubstep&nbsp;mix)</a><br />
+      </p>
+
+      <p class="text">
+        I grew up with Jeff Wayne's War of the Worlds, after two decades
+        of listening to it with some frequency I am quite familiar with
+        it.  And that may be a prerequisite for appreciating this mix.
+        When you consider only its parts, this is simply a DJ Mix of
+        dubstep music with some samples from "War of the Worlds" thrown
+        in.  But the outcome is surprisingly effective, I downloaded
+        this because it seemed like an interesting novelty, but I ended
+        up listening to it a great deal.
+        <a class="action" href="http://soundcloud.com/erwtenpeller/war-of-the-worlds"><img src="favicons/soundcloud.png" alt="download (soundcloud)" /></a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <img class="cover" src="4x4-12.jpg" />
+      <p class="data">
+        <span class="releasedate">2010-12-03</span><br />
+        <a class="artist" href="http://musicbrainz.org/artist/4a00ec9d-c635-463a-8cd4-eb61725f0c60">deaudmau5</a><br />
+        <a class="release" href="http://musicbrainz.org/release/81447cb9-1719-4ef1-b7a1-da786bc08936/">4x4=12</a><br />
+      </p>
+
+      <p class="text">
+        Obviously deadmau5 is a fairly well-known name, however I never
+        listened to any of his music until this year.  Friendly,
+        predictable house music, good for coding.
+        <a class="action" href="http://youtu.be/MEQMkzjcLEA"><img src="favicons/youtube.png" alt="some chords (youtube)" /></a>
+      </p>
+    </div>
+
+    <div class="entry">
+      <img class="cover" src="unseen-empire.jpg" />
+      <p class="data">
+        <span class="releasedate">2011-04-15</span><br />
+        <a class="artist" href="http://musicbrainz.org/artist/b9a20306-a4f5-4d3c-8680-e9cdc7e3af5b">Scar Symmetry</a><br />
+        <a class="release" href="http://musicbrainz.org/release/7b02de2a-3350-4649-90fe-314c072780d7/">The Unseen Empire</a><br />
+      </p>
+
+      <p class="text">
+        I haven't listened to much metal this year, but I did catch up
+        on what Scar Symmetry have been doing in recent years.
+        Apparantly the music on Unseen Empire consists of ideas from a
+        whole a bunch of metal genres, but I don't know anything about
+        metal, so I don't notice any of that.  I just come here for the
+        nice contrast between the singing and growling, which is still
+        as much a feature here as it was on their first two albums.
+        <a class="action" href="http://soundcloud.com/nuclearblastrecords/scar-symmetry-extinction"><img src="favicons/soundcloud.png" alt="Extinction Mantra (soundcloud)" /></a>
+      </p>
+    </div>
+
+  </body>
+</html>
